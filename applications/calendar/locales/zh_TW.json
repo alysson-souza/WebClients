@@ -991,6 +991,12 @@
       ],
       "Reconnect to Gmail": [
         "重新連接 Gmail"
+      ],
+      "Copy booking page link": [
+        "複製預定頁面的連結"
+      ],
+      "Use ${ VPN_SHORT_APP_NAME } for data privacy": [
+        "使用 ${ VPN_SHORT_APP_NAME } 為了資料隱私"
       ]
     },
     "action": {
@@ -1750,6 +1756,9 @@
       ],
       "Total for ${ n } month": [
         " ${ n } 個月總計"
+      ],
+      "Subtotal": [
+        "小計"
       ]
     },
     "Collapsible tooltip": {
@@ -3073,6 +3082,15 @@
       ],
       "We can't access ${ boldEmails } anymore.": [
         "我們無法再存取至 ${ boldEmails }"
+      ],
+      "Ensure you can still access your account and data even if you lose your ${ BRAND_NAME } password.": [
+        "確保您仍可存取至您的帳號及資料就算您忘記您的 ${ BRAND_NAME } 密碼。"
+      ],
+      "To continue receiving and sending Gmail messages in ${ BRAND_NAME }, please reconnect your account.": [
+        "若要於 ${ BRAND_NAME } 要持續接收和傳送 Gmail 的訊息，請重新連接至您的帳號。"
+      ],
+      "You’ll get a secure email with the details shortly.": [
+        "您即將取得安全電子郵件附帶詳細資料。"
       ]
     },
     "description": {
@@ -3889,6 +3907,9 @@
       ],
       "Unable to load VPN dashboard. Please check your connection and try again.": [
         "無法載入 VPN 儀表板。請檢查您的連線，然後重試。"
+      ],
+      "Address could not be added.": [
+        "位址無法被添加。"
       ]
     },
     "error": {
@@ -6191,6 +6212,27 @@
       ],
       "for ${ price }": [
         "為 ${ price }"
+      ],
+      "Choose your service to connect with": [
+        "選擇您的服務以連線"
+      ],
+      "Each code can only be used once": [
+        "每個代碼都只能使用一次"
+      ],
+      "In which calendar should bookings appear?": [
+        "預定該顯示於何者行事曆?"
+      ],
+      "On public WiFi networks": [
+        "於公用 WiFi 網路上"
+      ],
+      "Privacy by default": [
+        "隱私權為根本"
+      ],
+      "Scan the QR code with your mobile device": [
+        "透過行動裝置掃描此 QR Code"
+      ],
+      "Tracking": [
+        "追蹤"
       ]
     },
     "info": {
@@ -6903,6 +6945,9 @@
       ],
       "Your location": [
         "您的位置"
+      ],
+      "Additional comments": [
+        "附加備註"
       ]
     },
     "label": {
@@ -7067,6 +7112,9 @@
       ],
       "What’s this?": [
         "這是什麼？"
+      ],
+      "Enforcing 2FA for organizations": [
+        "強制貴組織雙重驗證"
       ]
     },
     "Link label (optional)": {
@@ -7175,6 +7223,9 @@
       ],
       "${ seats } ${ MEET_APP_NAME } seat": [
         "${ seats } ${ MEET_APP_NAME } 席位"
+      ],
+      "${ MEET_APP_NAME } license": [
+        "${ MEET_APP_NAME } 授權"
       ]
     },
     "meet_2025: Feature": {
@@ -8710,6 +8761,9 @@
       ],
       "Your free trial has started": [
         "您的免費試用已開始"
+      ],
+      "Your full ${ planTitle } subscription starts on ${ boldEndDate }.": [
+        "您全部 ${ planTitle } 訂閱開始於 ${ boldEndDate }。"
       ]
     },
     "Option": {
@@ -9018,6 +9072,12 @@
       ],
       "Your subscription currently has an existing discount. Moving to this new promotion means that the existing discount will no longer be applied.": [
         "您的訂閱已套用現有折扣。若轉換至新的促銷方案，現有折扣將不再套用。"
+      ],
+      "Edit billing address": [
+        "編輯帳單地址"
+      ],
+      "Including ${ rate }% taxes": [
+        "包含 ${ rate }% 稅金"
       ]
     },
     "Payments.Error": {
@@ -9287,6 +9347,15 @@
       ],
       "ZIP code": [
         "郵遞區號"
+      ],
+      "Enter a name": [
+        "輸入名稱"
+      ],
+      "Leave a note for all participants": [
+        "給全部參與者留下註記"
+      ],
+      "Select a provider": [
+        "選擇一個供應商"
       ]
     },
     "Placeholder for contact group name": {
@@ -9315,6 +9384,9 @@
       ],
       "Upgrade to ${ upsellPlanTitle }": [
         "升級至${ upsellPlanTitle }"
+      ],
+      "Stay on ${ currentPlanTitle }": [
+        "保持 ${ currentPlanTitle } 方案"
       ]
     },
     "Progress bar description": {
@@ -9392,6 +9464,9 @@
       ],
       "Yahoo": [
         "Yahoo"
+      ],
+      "Google Workspace": [
+        "Google Workspace"
       ]
     },
     "q1campaign: Action": {
@@ -10055,6 +10130,9 @@
       ],
       "Upgrade and save more with 2 years of ${ planName }": [
         "使用兩年的 ${ planName } 升級並節省更多"
+      ],
+      "Get 500 GB to securely store all your files and photos": [
+        "取得 500 GB 以安全地儲存您的檔案和照片"
       ]
     },
     "specialoffer: Tooltip": {
@@ -10513,6 +10591,9 @@
       ],
       "Video meetings, up to ${ PAID_PREMIUM_MAX_PARTICIPANTS } participant": [
         "視訊會議，至多 ${ PAID_PREMIUM_MAX_PARTICIPANTS } 位參與者"
+      ],
+      "${ CALENDAR_APP_NAME }, ${ DRIVE_SHORT_APP_NAME }, ${ PASS_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ MEET_SHORT_APP_NAME }, and ${ LUMO_APP_NAME } with premium features": [
+        "${ CALENDAR_APP_NAME } 、 ${ DRIVE_SHORT_APP_NAME } 、${ PASS_SHORT_APP_NAME } 、 ${ VPN_SHORT_APP_NAME } 、 ${ MEET_SHORT_APP_NAME } 、和 ${ LUMO_APP_NAME } 與頂級質子版功能"
       ]
     },
     "subscription reminder": {

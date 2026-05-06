@@ -6517,6 +6517,9 @@
       ],
       "Your physical location is visible and can be used to restrict your access to the internet.": [
         "Tu ubicación física es visible y puede usarse para restringir tu acceso a internet."
+      ],
+      "Add ${ PLAN_NAMES[PLANS.MEET_BUSINESS] }": [
+        "Añade ${ PLAN_NAMES[PLANS.MEET_BUSINESS] }"
       ]
     },
     "info": {
