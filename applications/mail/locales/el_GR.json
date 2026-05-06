@@ -1700,6 +1700,9 @@
       ],
       "Zoom out": [
         "Σμίκρυνση"
+      ],
+      "Connect your email": [
+        "Συνδέστε τη διεύθυνση email σας"
       ]
     },
     "action": {
@@ -4296,6 +4299,9 @@
       ],
       "We've started importing your last 180 days of emails from Gmail. We'll let you know when it's done.": [
         "Ξεκινήσαμε την εισαγωγή των μηνυμάτων ηλεκτρονικού ταχυδρομείου των τελευταίων 180 ημερών από το Gmail. Θα σας ενημερώσουμε όταν ολοκληρωθεί."
+      ],
+      "Send and receive Gmail messages directly in ${ MAIL_APP_NAME }. Connect your address in ${ addressesSettingsLink }.": [
+        "Αποστολή και λήψη μηνυμάτων Gmail απευθείας στο ${ MAIL_APP_NAME }. Συνδέστε τη διεύθυνσή σας στο ${ addressesSettingsLink }."
       ]
     },
     "description": {
@@ -5752,6 +5758,27 @@
     "Filter": {
       "Show": [
         "Εμφάνιση"
+      ],
+      "Filter": [
+        "Φίλτρο"
+      ],
+      "Filter (${ activeState.dropdownActiveCount })": [
+        "Φίλτρο (${ activeState.dropdownActiveCount })"
+      ],
+      "Filter and sort emails": [
+        "Φιλτράρισμα και ταξινόμηση μηνυμάτων ηλεκτρονικού ταχυδρομείου"
+      ],
+      "Has attachments": [
+        "Έχει συνημμένα"
+      ],
+      "Read": [
+        "Αναγνωσμένα"
+      ],
+      "Reset": [
+        "Επαναφορά"
+      ],
+      "Unread": [
+        "Μη αναγνωσμένα"
       ]
     },
     "Filter Actions": {
@@ -10086,6 +10113,9 @@
       ],
       "ZIP code": [
         "Τ.Κ."
+      ],
+      "Personal and work emails, plus important updates and notifications": [
+        "Προσωπικά και επαγγελματικά μηνύματα ηλεκτρονικού ταχυδρομείου, καθώς και σημαντικές ενημερώσεις και ειδοποιήσεις"
       ]
     },
     "Label (begin date/advanced search)": {
@@ -11989,6 +12019,9 @@
       ],
       "Switch the services you use every day to your ${ BRAND_NAME } address for better security and privacy.": [
         "Αλλάξτε τις υπηρεσίες που χρησιμοποιείτε καθημερινά στη διεύθυνση ${ BRAND_NAME } σας για καλύτερη ασφάλεια και ιδιωτικότητα."
+      ],
+      "Bring your existing emails into ${ MAIL_APP_NAME } so you can manage everything from one private inbox.": [
+        "Φέρτε τα υπάρχοντα μηνύματα ηλεκτρονικού ταχυδρομείου σας στο ${ MAIL_APP_NAME } ώστε να μπορείτε να διαχειρίζεστε τα πάντα από ένα ιδιωτικό εισερχόμενο."
       ]
     },
     "Onboarding modal": {
@@ -13537,6 +13570,9 @@
       ],
       "Smallest first": [
         "Μικρότερου μεγέθους πρώτα"
+      ],
+      "Sort by": [
+        "Ταξινόμηση κατά"
       ]
     },
     "specialoffer: Action": {

@@ -323,7 +323,7 @@
         "Contraure l'editor"
       ],
       "Copy": [
-        "Copiar"
+        "Copia"
       ],
       "Copy address": [
         "Copia l'adreça"
@@ -5758,6 +5758,27 @@
     "Filter": {
       "Show": [
         "Mostra"
+      ],
+      "Filter": [
+        "Filtre"
+      ],
+      "Filter (${ activeState.dropdownActiveCount })": [
+        "Filtreu (${ activeState.dropdownActiveCount })"
+      ],
+      "Filter and sort emails": [
+        "Filtreu i ordeneu els correus electrònics"
+      ],
+      "Has attachments": [
+        "Té adjunts"
+      ],
+      "Read": [
+        "Llegit"
+      ],
+      "Reset": [
+        "Restableix"
+      ],
+      "Unread": [
+        "No llegit"
       ]
     },
     "Filter Actions": {
@@ -10092,6 +10113,9 @@
       ],
       "ZIP code": [
         "Codi postal"
+      ],
+      "Personal and work emails, plus important updates and notifications": [
+        "Correus electrònics personals i de la feina, a més d'actualitzacions i notificacions importants"
       ]
     },
     "Label (begin date/advanced search)": {
@@ -10366,7 +10390,7 @@
         "Programats"
       ],
       "Sent": [
-        "Enviats"
+        "Enviat"
       ],
       "settings": [
         "preferències"
@@ -13546,6 +13570,9 @@
       ],
       "Smallest first": [
         "Els més petits primer"
+      ],
+      "Sort by": [
+        "Ordena per"
       ]
     },
     "specialoffer: Action": {
@@ -13669,7 +13696,7 @@
         "/ mes"
       ],
       "/month": [
-        "/mesos"
+        "/mes"
       ],
       "1 year": [
         "1 any"
@@ -15382,7 +15409,7 @@
         "El codi de verificació no és vàlid."
       ],
       "Keep this banner hidden?": [
-        "Voleu mantenir aquest missatge amagat?"
+        "Voleu mantenir aquest bàner ocult?"
       ],
       "Label as": [
         "Etiqueta com a"
@@ -16069,7 +16096,7 @@
     },
     "Unlimited offer": {
       "/month": [
-        "/mesos"
+        "/mes"
       ],
       "Only": [
         "Només"

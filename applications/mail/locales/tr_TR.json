@@ -4298,10 +4298,10 @@
         "Zaten 10 takma ad oluşturmuşsunuz. Sınırsız sayıda takma ad oluşturabilmek ve 500 GB depolama alanı edinmek için ${ BRAND_NAME } Limited tarifesine geçin."
       ],
       "We've started importing your last 180 days of emails from Gmail. We'll let you know when it's done.": [
-        "Gmail'deki son 180 günlük e-postalarınızı içe aktarmaya başladık. İşlem tamamlandığında size haber vereceğiz."
+        "Gmail üzerinde son 180 gündeki e-postalarınızı içe aktarmaya başladık. Tamamlandığında bilgi vereceğiz."
       ],
       "Send and receive Gmail messages directly in ${ MAIL_APP_NAME }. Connect your address in ${ addressesSettingsLink }.": [
-        "Gmail iletilerini doğrudan ${ MAIL_APP_NAME } üzerinden gönderin ve alın. Adresinizi ${ addressesSettingsLink } kısmından bağlayın."
+        "Gmail iletilerini doğrudan ${ MAIL_APP_NAME } üzerinden gönderin ve alın. ${ addressesSettingsLink } bölümünden adresinizi bağlayın."
       ]
     },
     "description": {
@@ -5758,6 +5758,27 @@
     "Filter": {
       "Show": [
         "Görüntüle"
+      ],
+      "Filter": [
+        "Süz"
+      ],
+      "Filter (${ activeState.dropdownActiveCount })": [
+        "Süz (${ activeState.dropdownActiveCount })"
+      ],
+      "Filter and sort emails": [
+        "E-postaları süz ve sırala"
+      ],
+      "Has attachments": [
+        "Ek dosyaları olan"
+      ],
+      "Read": [
+        "Okunmuş"
+      ],
+      "Reset": [
+        "Sıfırla"
+      ],
+      "Unread": [
+        "Okunmamış"
       ]
     },
     "Filter Actions": {
@@ -10092,6 +10113,9 @@
       ],
       "ZIP code": [
         "Posta kodu"
+      ],
+      "Personal and work emails, plus important updates and notifications": [
+        "Kişisel ve iş e-postalarının yanı sıra önemli güncellemeler ve bildirimler"
       ]
     },
     "Label (begin date/advanced search)": {
@@ -11997,7 +12021,7 @@
         "Daha fazla güvenlik ve gizlilik için her gün kullandığınız hizmetleri ${ BRAND_NAME } adresinize taşıyın."
       ],
       "Bring your existing emails into ${ MAIL_APP_NAME } so you can manage everything from one private inbox.": [
-        "Mevcut e-postalarınızı ${ MAIL_APP_NAME } uygulamasına taşıyın. Böylece her şeyi tek bir gizli gelen kutusundan yönetebilirsiniz."
+        "Var olan e-postalarınızı ${ MAIL_APP_NAME } üzerine taşıyın. Böylece her şeyi gizliliği koruyan tek bir gelen kutusundan yönetebilirsiniz."
       ]
     },
     "Onboarding modal": {
@@ -13642,6 +13666,9 @@
       ],
       "Smallest first": [
         "Küçükten büyüğe"
+      ],
+      "Sort by": [
+        "Sırala"
       ]
     },
     "specialoffer: Action": {

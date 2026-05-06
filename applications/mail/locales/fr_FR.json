@@ -5758,6 +5758,27 @@
     "Filter": {
       "Show": [
         "Montrer"
+      ],
+      "Filter": [
+        "Filtre"
+      ],
+      "Filter (${ activeState.dropdownActiveCount })": [
+        "Filtrer (${ activeState.dropdownActiveCount })"
+      ],
+      "Filter and sort emails": [
+        "Filtrer et trier les messages"
+      ],
+      "Has attachments": [
+        "Contient des pièces jointes"
+      ],
+      "Read": [
+        "Lus"
+      ],
+      "Reset": [
+        "Réinitialiser"
+      ],
+      "Unread": [
+        "Non lus"
       ]
     },
     "Filter Actions": {
@@ -10092,6 +10113,9 @@
       ],
       "ZIP code": [
         "Code postal"
+      ],
+      "Personal and work emails, plus important updates and notifications": [
+        "E-mails personnels et professionnels, ainsi que mises à jour et notifications importantes"
       ]
     },
     "Label (begin date/advanced search)": {
@@ -12218,7 +12242,7 @@
         "Aucun dossier parent"
       ],
       "Remind me later": [
-        "Me rappeler plus tard"
+        "Me le rappeler plus tard"
       ],
       "Yes, don't show again": [
         "Oui, ne plus afficher"
@@ -13642,6 +13666,9 @@
       ],
       "Smallest first": [
         "Le moins volumineux en premier"
+      ],
+      "Sort by": [
+        "Trier par"
       ]
     },
     "specialoffer: Action": {
@@ -15478,7 +15505,7 @@
         "Le code de vérification n'est pas valide."
       ],
       "Keep this banner hidden?": [
-        "Masquer cette bannière ?"
+        "Garder cette bannière cachée ?"
       ],
       "Label as": [
         "Labelliser"
