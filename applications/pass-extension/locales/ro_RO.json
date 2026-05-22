@@ -3020,6 +3020,9 @@
       ],
       "After autofilling a login, its 2FA code is copied to the clipboard.": [
         "După completarea automată a unei autentificări, codul de A2F al acesteia este copiat în memorie."
+      ],
+      "To set up biometrics unlock, ${ PASS_APP_NAME } requires a new browser permission. After you accept it, the extension will reload. Please re-open this page afterward.": [
+        "Pentru a configura deblocarea biometrică, ${ PASS_APP_NAME } necesită o nouă permisiune de la navigatorul web. După ce o acceptați, extensia se va reîncărca. Apoi redeschideți această pagină."
       ]
     },
     "Keyboard key": {

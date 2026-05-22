@@ -3056,6 +3056,9 @@
       ],
       "After autofilling a login, its 2FA code is copied to the clipboard.": [
         "Po automatickom vyplnení prihlasovacích údajov sa 2FA kód skopíruje do schránky."
+      ],
+      "To set up biometrics unlock, ${ PASS_APP_NAME } requires a new browser permission. After you accept it, the extension will reload. Please re-open this page afterward.": [
+        "Na nastavenie odomykania pomocou biometrických údajov vyžaduje ${ PASS_APP_NAME } nové povolenie prehliadača. Po ich udelení sa rozšírenie znovu načíta. Následne znovu otvorte túto stránku, prosím."
       ]
     },
     "Keyboard key": {
