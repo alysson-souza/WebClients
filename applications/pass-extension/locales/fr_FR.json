@@ -2149,7 +2149,8 @@
         "Déplacement de tous les éléments depuis « ${ payload.content.name } »"
       ],
       "Moving an item to another vault will erase its secure links.": [
-        "Déplacer un élément vers un autre coffre-fort effacera ses liens sécurisés."
+        "Déplacer un élément vers un autre coffre-fort effacera ses liens sécurisés.",
+        "Déplacer des éléments vers un autre coffre-fort effacera leurs liens sécurisés."
       ],
       "Moving items": [
         "Déplacement des éléments"
@@ -2985,6 +2986,9 @@
         "Après remplissage des identifiants, le code A2F associé est copié dans le presse-papiers."
       ],
       "To set up biometrics unlock, ${ PASS_APP_NAME } requires a new browser permission. After you accept it, the extension will reload. Please re-open this page afterward.": [
+        "Afin de configurer le déverrouillage biométrique, ${ PASS_APP_NAME } a besoin d'une nouvelle autorisation de navigateur. Une fois acceptée, l'extension sera rechargée. Veuillez rouvrir cette page après l'opération."
+      ],
+      "To set up biometrics unlock, ${ PASS_APP_NAME } requires a new browser permission. After you accept it, the extension will reload. Please re-open this page afterwards.": [
         "Afin de configurer le déverrouillage biométrique, ${ PASS_APP_NAME } a besoin d'une nouvelle autorisation de navigateur. Une fois acceptée, l'extension sera rechargée. Veuillez rouvrir cette page après l'opération."
       ]
     },
@@ -5162,6 +5166,9 @@
       ],
       "Your new access token": [
         "Votre nouveau jeton d'accès"
+      ],
+      "Browser permission required": [
+        "Autorisation du navigateur nécessaire"
       ]
     },
     "Title_cloned_item": {

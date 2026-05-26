@@ -2984,6 +2984,9 @@
       ],
       "After autofilling a login, its 2FA code is copied to the clipboard.": [
         "Μετά την αυτόματη συμπλήρωση μιας σύνδεσης, ο κωδικός 2FA αντιγράφεται στο πρόχειρο."
+      ],
+      "To set up biometrics unlock, ${ PASS_APP_NAME } requires a new browser permission. After you accept it, the extension will reload. Please re-open this page afterwards.": [
+        "Για να ρυθμίσετε το ξεκλείδωμα με βιομετρικά στοιχεία, το ${ PASS_APP_NAME } απαιτεί νέο δικαίωμα περιήγησης. Αφού το αποδεχτείτε, η επέκταση θα φορτώσει ξανά. Ανοίξτε ξανά αυτήν τη σελίδα στη συνέχεια."
       ]
     },
     "Keyboard key": {
@@ -5160,6 +5163,9 @@
       ],
       "Your new access token": [
         "Το νέο σας διακριτικό πρόσβασης σας"
+      ],
+      "Browser permission required": [
+        "Απαιτείται άδεια προγράμματος περιήγησης"
       ]
     },
     "Title_cloned_item": {

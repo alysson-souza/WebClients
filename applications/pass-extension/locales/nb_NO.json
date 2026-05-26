@@ -2873,7 +2873,7 @@
         "${ selectedShareIds.size } valgt"
       ],
       "Access token \"${ action.token.Name }\" is already expired. If deleted, it will no longer be shown.": [
-        "Tilgangstoken \"${ action.token.Name }\" er allerede utløpt. Hvis det slettes, vil det ikke lenger vises."
+        "Tilgangstokenet \"${ action.token.Name }\" er allerede utløpt. Hvis det slettes, vil det ikke lenger vises."
       ],
       "Access token \"${ action.token.Name }\" will stop working immediately. This action cannot be undone.": [
         "Tilgangstokenet \"${ action.token.Name }\" vil slutte å virke umiddelbart. Denne handlingen kan ikke angres."
@@ -2959,13 +2959,22 @@
         "Dette tokenet får skrivebeskyttet tilgang til hvelvene du velger. Den kan lese elementer, men kan ikke redigere dem, dele hvelv eller invitere andre. Du kan endre dette senere."
       ],
       "Updated item": [
-        "Oppdaterte element"
+        "Oppdatert element"
       ],
       "Upgrade to ${ PASS_APP_NAME } Plus to create access tokens and use ${ PASS_APP_NAME } programmatically.": [
         "Oppgrader til ${ PASS_APP_NAME } Plus for å opprette tilgangstokener og bruke ${ PASS_APP_NAME } programmatisk."
       ],
       "Vault access granted": [
         "Tilgang til hvelv gitt"
+      ],
+      "2FA code copied to clipboard": [
+        "2FA-kode kopiert til utklippstavlen"
+      ],
+      "After autofilling a login, its 2FA code is copied to the clipboard.": [
+        "Etter at en pålogging er automatisk utfylt, kopieres 2FA-koden til utklippstavlen."
+      ],
+      "To set up biometrics unlock, ${ PASS_APP_NAME } requires a new browser permission. After you accept it, the extension will reload. Please re-open this page afterwards.": [
+        "For å konfigurere biometrisk opplåsing krever ${ PASS_APP_NAME } en ny nettlesertillatelse. Etter at du har godtatt den, lastes utvidelsen inn på nytt. Åpne denne siden på nytt etterpå."
       ]
     },
     "Keyboard key": {
@@ -4127,6 +4136,9 @@
       ],
       "Vault access": [
         "Hvelvtilgang"
+      ],
+      "Auto-copy 2FA code": [
+        "Kopier 2FA-kode automatisk"
       ]
     },
     "Link": {
@@ -5139,6 +5151,9 @@
       ],
       "Your new access token": [
         "Ditt nye tilgangstoken"
+      ],
+      "Browser permission required": [
+        "Nettlesertillatelse kreves"
       ]
     },
     "Title_cloned_item": {

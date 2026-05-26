@@ -3023,6 +3023,9 @@
       ],
       "To set up biometrics unlock, ${ PASS_APP_NAME } requires a new browser permission. After you accept it, the extension will reload. Please re-open this page afterward.": [
         "Pentru a configura deblocarea biometrică, ${ PASS_APP_NAME } necesită o nouă permisiune de la navigatorul web. După ce o acceptați, extensia se va reîncărca. Apoi redeschideți această pagină."
+      ],
+      "To set up biometrics unlock, ${ PASS_APP_NAME } requires a new browser permission. After you accept it, the extension will reload. Please re-open this page afterwards.": [
+        "Pentru a configura deblocarea biometrică, ${ PASS_APP_NAME } necesită o nouă permisiune de la navigatorul web. După ce o acceptați, extensia se va reîncărca. Apoi redeschideți această pagină."
       ]
     },
     "Keyboard key": {
@@ -5224,6 +5227,9 @@
       ],
       "Your new access token": [
         "Noul cod de acces"
+      ],
+      "Browser permission required": [
+        "Necesită permisiunea navigatorului web"
       ]
     },
     "Title_cloned_item": {
