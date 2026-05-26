@@ -2828,6 +2828,9 @@
       ],
       "Only tokens that expired in the last 30 days are shown. Older tokens are automatically deleted.": [
         "仅显示过去 30 天内过期的令牌，更早的令牌将被自动删除。"
+      ],
+      "To set up biometrics unlock, ${ PASS_APP_NAME } requires a new browser permission. After you accept it, the extension will reload. Please re-open this page afterwards.": [
+        "若要设置生物识别解锁，${ PASS_APP_NAME } 需要一个新的浏览器权限。接受后，扩展程序将重新加载。请之后重新打开此页面。"
       ]
     },
     "Keyboard key": {
@@ -5058,6 +5061,9 @@
       ],
       "Your new access token": [
         "您的新访问令牌"
+      ],
+      "Browser permission required": [
+        "需要浏览器权限"
       ]
     },
     "Title_cloned_item": {
