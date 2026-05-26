@@ -2654,6 +2654,9 @@
       ],
       "Only tokens that expired in the last 30 days are shown. Older tokens are automatically deleted.": [
         "Nur Token, die in den letzten 30 Tagen abgelaufen sind, werden angezeigt. Ältere Token wurden automatisch gelöscht."
+      ],
+      "To set up biometrics unlock, ${ PASS_APP_NAME } requires a new browser permission. After you accept it, the extension will reload. Please re-open this page afterwards.": [
+        "Um die biometrische Entsperrung einzurichten, benötigt ${ PASS_APP_NAME } eine neue Browser-Berechtigung. Nachdem du diese akzeptiert hast, wird die Erweiterung neu geladen. Bitte öffne diese Seite anschließend erneut."
       ]
     },
     "Keyboard key": {
@@ -4793,6 +4796,9 @@
       "You’re about to permanently delete ${ aliasCount } alias.": [
         "Du bist dabei, ${ aliasCount } Alias dauerhaft zu löschen.",
         "Du bist dabei, ${ aliasCount } Aliasse dauerhaft zu löschen."
+      ],
+      "Browser permission required": [
+        "Browser-Berechtigung erforderlich"
       ]
     },
     "Title_cloned_item": {

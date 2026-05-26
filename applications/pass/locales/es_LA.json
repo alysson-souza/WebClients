@@ -2788,6 +2788,9 @@
       ],
       "Vault access granted": [
         "Acceso de bóveda concedido"
+      ],
+      "To set up biometrics unlock, ${ PASS_APP_NAME } requires a new browser permission. After you accept it, the extension will reload. Please re-open this page afterwards.": [
+        "Para configurar el desbloqueo biométrico, ${ PASS_APP_NAME } requiere un permiso de navegador nuevo. Después de aceptarlo, la extensión se recargará. Luego abra esta página."
       ]
     },
     "Keyboard key": {
@@ -4969,6 +4972,9 @@
       ],
       "Your new access token": [
         "Su token de acceso nuevo"
+      ],
+      "Browser permission required": [
+        "Se requiere permiso de navegador"
       ]
     },
     "Title_cloned_item": {

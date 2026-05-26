@@ -2823,6 +2823,9 @@
       ],
       "Only tokens that expired in the last 30 days are shown. Older tokens are automatically deleted.": [
         "Sunt afișate doar codurile de acces care au expirat în ultimele 30 de zile. Cele mai vechi sunt șterse automat."
+      ],
+      "To set up biometrics unlock, ${ PASS_APP_NAME } requires a new browser permission. After you accept it, the extension will reload. Please re-open this page afterwards.": [
+        "Pentru a configura deblocarea biometrică, ${ PASS_APP_NAME } necesită o nouă permisiune de la navigatorul web. După ce o acceptați, extensia se va reîncărca. Apoi redeschideți această pagină."
       ]
     },
     "Keyboard key": {
@@ -5029,6 +5032,9 @@
       ],
       "Your new access token": [
         "Noul cod de acces"
+      ],
+      "Browser permission required": [
+        "Necesită permisiunea navigatorului web"
       ]
     },
     "Title_cloned_item": {

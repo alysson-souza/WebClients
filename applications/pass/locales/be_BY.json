@@ -2855,6 +2855,12 @@
       ],
       "The agent will be required to provide a reason for every action it performs, and each action will be recorded in an audit log you can review. After token creation, you'll get instructions to copy-paste into your AI agent.": [
         "Агент павінен будзе тлумачыць прычыну кожнага выкананага дзеяння, і кожнае яго дзеянне будзе запісана ў журнале аўдыту, які вы зможаце паглядзець. Пасля стварэння токена вы атрымаеце інструкцыі па капіяванні і ўстаўцы яго ў свой агент ШІ."
+      ],
+      "Every action this agent token has performed, newest first.": [
+        "Усе дзеянні, якія выкананы гэтым токенам агента. Спачатку самыя новыя."
+      ],
+      "To set up biometrics unlock, ${ PASS_APP_NAME } requires a new browser permission. After you accept it, the extension will reload. Please re-open this page afterwards.": [
+        "${ PASS_APP_NAME } патрабуе новыя дазволы ад браўзера, каб наладзіць біяметрычную разблакіроўку. Пашырэнне будзе перазагружана, калі праграма атрымае адпаведныя дазволы."
       ]
     },
     "Keyboard key": {
@@ -5086,6 +5092,9 @@
       ],
       "Your new access token": [
         "Ваш новы токен доступу"
+      ],
+      "Browser permission required": [
+        "Патрабуюцца дазволы ад браўзера"
       ]
     },
     "Title_cloned_item": {

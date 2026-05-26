@@ -2037,7 +2037,8 @@
         "\"${ payload.content.name }\" içindeki tüm ögeler taşınıyor"
       ],
       "Moving an item to another vault will erase its secure links.": [
-        "Bir ögeyi başka bir kasaya taşımak güvenli bağlantılarını siler."
+        "Bir ögeyi başka bir kasaya taşımak onun güvenli bağlantılarını siler.",
+        "Ögeleri başka bir kasaya taşımak onların güvenli bağlantılarını siler."
       ],
       "Moving items": [
         "Ögeler taşınıyor"
@@ -2787,6 +2788,9 @@
       ],
       "Only tokens that expired in the last 30 days are shown. Older tokens are automatically deleted.": [
         "Yalnızca son 30 gün içinde süresi dolan kodlar görüntülenir. Daha eski kodlar otomatik olarak silinir."
+      ],
+      "To set up biometrics unlock, ${ PASS_APP_NAME } requires a new browser permission. After you accept it, the extension will reload. Please re-open this page afterwards.": [
+        "Biyometri ile kilit açmak için ${ PASS_APP_NAME } uygulamasına yeni bir tarayıcı izni verilmesi gerekiyor. İzni verdikten sonra eklenti yeniden yüklenecek. Ardından bu sayfayı yeniden açın."
       ]
     },
     "Keyboard key": {
@@ -4968,6 +4972,9 @@
       ],
       "Your new access token": [
         "Yeni erişim kodunuz"
+      ],
+      "Browser permission required": [
+        "Tarayıcı izni verilmesi gerekiyor"
       ]
     },
     "Title_cloned_item": {
