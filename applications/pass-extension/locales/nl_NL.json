@@ -779,6 +779,24 @@
       ],
       "Load more": [
         "Laad meer"
+      ],
+      "Copy instructions": [
+        "Instructies kopiëren"
+      ],
+      "Copy token": [
+        "Kopieer token"
+      ],
+      "Create token": [
+        "Token aanmaken"
+      ],
+      "Manage vault access": [
+        "Toegang kluis beheren"
+      ],
+      "New token": [
+        "Nieuwe token"
+      ],
+      "View agent activity": [
+        "Bekijk agentactiviteit"
       ]
     },
     "Browser": {
@@ -1402,6 +1420,30 @@
       ],
       "Name is required": [
         "Naam is verplicht"
+      ],
+      "Couldn't load agent setup instructions. Please copy the token below, it won't be shown again.": [
+        "Kan configuratie-instructies voor de agent niet laden. Kopieer de token hieronder. Deze wordt niet meer weergegeven."
+      ],
+      "Expiration must be between 60 minutes and 1 year": [
+        "De vervaldatum moet tussen 60 minuten en 1 jaar liggen"
+      ],
+      "Failed to create access token": [
+        "Kan geen toegangstoken maken"
+      ],
+      "Failed to delete access token": [
+        "Kan het toegangstoken niet verwijderen"
+      ],
+      "Failed to load access tokens": [
+        "Kan toegangstokens niet laden"
+      ],
+      "Failed to load token actions": [
+        "Kan tokenacties niet laden"
+      ],
+      "Failed to update vault access": [
+        "Kan de toegang tot de kluis niet updaten"
+      ],
+      "Name must be 191 characters or fewer": [
+        "Naam moet 191 tekens of minder bevatten"
       ]
     },
     "Error message": {
@@ -2098,8 +2140,7 @@
         "Alle items uit \"${ payload.content.name }\" verplaatsen"
       ],
       "Moving an item to another vault will erase its secure links.": [
-        "Het verplaatsen van een item naar een andere kluis verwijdert zijn geschiedenis.",
-        "Het verplaatsen van items naar een andere kluis verwijdert hun geschiedenis."
+        "Het verplaatsen van een item naar een andere kluis verwijdert zijn beveiligde links."
       ],
       "Moving items": [
         "Items verplaatsen"
@@ -2832,6 +2873,107 @@
       ],
       "Only tokens that expired in the last 30 days are shown. Older tokens are automatically deleted.": [
         "Alleen tokens die in de afgelopen 30 dagen zijn verlopen, worden weergegeven. Oudere tokens worden automatisch verwijderd."
+      ],
+      "${ selectedShareIds.size } selected": [
+        "${ selectedShareIds.size } geselecteerd"
+      ],
+      "2FA code copied to clipboard": [
+        "2FA-code gekopieerd naar klembord"
+      ],
+      "Access token \"${ action.token.Name }\" will stop working immediately. This action cannot be undone.": [
+        "Toegangstoken \"${ action.token.Name }\" stop onmiddellijk met werken. Deze actie kan niet ongedaan worden gemaakt."
+      ],
+      "Access tokens, used together with ${ passCliLink }, allow you to automate CI/CD or give your AI agent scoped access to what it needs to run its job.": [
+        "Met toegangstokens, gebruikt in combinatie met ${ passCliLink }, kunt u CI/CD automatiseren of uw AI-agent toegang geven tot wat hij nodig heeft om zijn werk uit te voeren."
+      ],
+      "After autofilling a login, its 2FA code is copied to the clipboard.": [
+        "Nadat een login automatisch is ingevuld, wordt de 2FA-code naar het klembord gekopieerd."
+      ],
+      "Between 60 (1 hour) and 525600 (1 year)": [
+        "Tussen 60 (1 uur) en 525600 (1 jaar)"
+      ],
+      "Copy the markdown below and send it to your AI agent. This is the only time the token will be shown.": [
+        "Kopieer de onderstaande korting en stuur deze naar uw AI-agent. Dit is de enige keer dat het token wordt getoond."
+      ],
+      "Copy this token now. For security reasons, it won't be shown again.": [
+        "Kopieer dit token nu. Om veiligheidsredenen wordt deze niet opnieuw weergegeven."
+      ],
+      "Create a token to integrate ${ PASS_APP_NAME } with your scripts and tools.": [
+        "Maak een token om ${ PASS_APP_NAME } te integreren met uw scripts en tools."
+      ],
+      "Created ${ createdDate }": [
+        "Gemaakt op ${ createdDate }"
+      ],
+      "Created item": [
+        "Item aangemaakt"
+      ],
+      "Deleted item": [
+        "Item verwijderd"
+      ],
+      "Download pass-cli from ${ passCliLink }.": [
+        "Download pass-cli van ${ passCliLink }."
+      ],
+      "Every action this agent token has performed, newest first.": [
+        "Elke actie die dit agent token heeft uitgevoerd, de nieuwste eerst."
+      ],
+      "Expired ${ abs } hour ago": [
+        "${ abs } uur geleden verlopen",
+        "${ abs } uren geleden verlopen"
+      ],
+      "Expires in ${ hours } hour": [
+        "Verloopt over ${ hours } uur",
+        "Verloopt over ${ hours } uren"
+      ],
+      "Expires in less than an hour": [
+        "Verloopt over minder dan een uur"
+      ],
+      "Log out of any existing session:": [
+        "Uitloggen bij een bestaande sessie:"
+      ],
+      "Moved item to trash": [
+        "Item naar prullenbak verplaatst"
+      ],
+      "No activity recorded yet.": [
+        "Nog geen activiteit vastgelegd."
+      ],
+      "No vaults available.": [
+        "Geen kluizen beschikbaar."
+      ],
+      "None selected": [
+        "Geen geselecteerd"
+      ],
+      "Read item": [
+        "Item lezen"
+      ],
+      "Restored item from trash": [
+        "Item uit de prullenbak hersteld"
+      ],
+      "Select the vaults \"${ token.Name }\" can read.": [
+        "Selecteer de kluizen die \"${ token.Name }\" kan lezen."
+      ],
+      "Test the token by logging in and listing vaults:": [
+        "Test het token door in te loggen en kluizen weer te geven:"
+      ],
+      "The agent will be required to provide a reason for every action it performs, and each action will be recorded in an audit log you can review. After token creation, you'll get instructions to copy-paste into your AI agent.": [
+        "De agent moet een reden opgeven voor elke actie die hij uitvoert, en elke actie wordt vastgelegd in een auditlogboek dat u kunt bekijken. Nadat u de token hebt gemaakt, krijgt u instructies om deze in uw AI-agent te kopiëren en te plakken."
+      ],
+      "Then you can go to ${ url } to copy the instructions to send to your AI agent.": [
+        "Vervolgens kunt u naar ${ url } gaan om de instructies te kopiëren en naar uw AI-agent te sturen."
+      ],
+      "This token gets read-only access to the vaults you select. It can read items, but cannot edit them, share vaults, or invite others. You can change this later.": [
+        "Dit token krijgt alleen-lezen toegang tot de kluizen die u selecteert. Het kan items lezen, maar kan ze niet bewerken, kluizen delen of anderen uitnodigen. U kunt dit later wijzigen."
+      ],
+      "To set up biometrics unlock, ${ PASS_APP_NAME } requires a new browser permission. After you accept it, the extension will reload. Please re-open this page afterwards.": [
+        "Om biometrische ontgrendeling in te stellen, heeft ${ PASS_APP_NAME } nieuwe browserrechten nodig. Nadat u deze heeft geaccepteerd, wordt de extensie opnieuw geladen. Open deze pagina daarna opnieuw."
+      ],
+      "Updated item": [
+        "Item bijgewerkt"
+      ],
+      "Upgrade to ${ PASS_APP_NAME } Plus to create access tokens and use ${ PASS_APP_NAME } programmatically.": [
+        "Upgrade naar ${ PASS_APP_NAME } Plus om toegangstokens te maken en ${ PASS_APP_NAME } programmatisch te gebruiken."
+      ],
+      "Vault access granted": [
+        "Toegang tot de kluis verleend"
       ]
     },
     "Keyboard key": {
@@ -3981,6 +4123,21 @@
       ],
       "Expired tokens (${ expired.length })": [
         "Verlopen tokens (${ expired.length })"
+      ],
+      "Access tokens": [
+        "Toegangstoken tokens"
+      ],
+      "Auto-copy 2FA code": [
+        "Kopieer automatisch 2FA-code"
+      ],
+      "Expires in (minutes)": [
+        "Verloopt over (minuten)"
+      ],
+      "Use for AI agent": [
+        "Gebruik voor AI-agent"
+      ],
+      "Vault access": [
+        "Toegang tot de kluis"
       ]
     },
     "Link": {
@@ -4026,6 +4183,9 @@
       ],
       "${ reason } has been enabled": [
         "${ reason } is aangezet"
+      ],
+      "Access token deleted": [
+        "Toegangstoken verwijderd"
       ]
     },
     "Onboarding": {
@@ -4289,6 +4449,9 @@
       ],
       "Used on ${ url }": [
         "Gebruikt op ${ url }"
+      ],
+      "e.g. 60": [
+        "Bijv. 60"
       ]
     },
     "Security Center - Info": {
@@ -4960,6 +5123,33 @@
       "You’re about to permanently delete ${ aliasCount } alias.": [
         "U staat op het punt ${ aliasCount } alias permanent te verwijderen.",
         "U staat op het punt ${ aliasCount } aliassen permanent te verwijderen."
+      ],
+      "Access tokens require ${ PASS_APP_NAME } Plus": [
+        "Voor toegangstokens is ${ PASS_APP_NAME } Plus vereist"
+      ],
+      "Activity for \"${ token.Name }\"": [
+        "Activiteit voor \"${ token.Name }\""
+      ],
+      "Agent setup instructions": [
+        "Installatie-instructies voor agenten"
+      ],
+      "Browser permission required": [
+        "Browser machtiging vereist"
+      ],
+      "Create new access token": [
+        "Maak een nieuw toegangstoken"
+      ],
+      "Delete access token?": [
+        "Toegangstoken verwijderen?"
+      ],
+      "Manage vault access": [
+        "Toegang kluis beheren"
+      ],
+      "No access tokens yet": [
+        "Nog geen toegangstokens"
+      ],
+      "Your new access token": [
+        "Uw nieuwe toegangstoken"
       ]
     },
     "Title_cloned_item": {
@@ -5309,6 +5499,40 @@
       ],
       "Failed to autotype. Please make sure ${ PASS_APP_NAME } has the necessary permissions and try again (${ error }).": [
         "Automatisch invullen is mislukt. Zorg ervoor dat ${ PASS_APP_NAME } de nodige machtigingen heeft en probeer het opnieuw (${ error })."
+      ]
+    },
+    "Activity": {
+      "Activity": [
+        "Activiteit"
+      ],
+      "Activity details could not be loaded.": [
+        "Activiteitsdetails kunnen niet worden geladen."
+      ],
+      "Folder": [
+        "Map"
+      ],
+      "Item": [
+        "Item"
+      ],
+      "Reason": [
+        "Reden"
+      ],
+      "Vault": [
+        "Kluis"
+      ]
+    },
+    "Status": {
+      "Active": [
+        "Actief"
+      ],
+      "Agent": [
+        "Agent"
+      ],
+      "Expired": [
+        "Verlopen"
+      ],
+      "Expiring soon": [
+        "Vervalt binnenkort"
       ]
     }
   }
