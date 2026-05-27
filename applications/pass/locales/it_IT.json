@@ -746,6 +746,12 @@
       ],
       "Your password manager is not here? Request it.": [
         "Il tuo gestore di password non è presente? Richiedilo."
+      ],
+      "Copy": [
+        "Copia"
+      ],
+      "Load more": [
+        "Carica di più"
       ]
     },
     "Browser": {
@@ -1282,6 +1288,12 @@
       ],
       "Your PIN code was removed by another ${ PASS_APP_NAME } client": [
         "Il tuo codice PIN è stato rimosso da un altro client ${ PASS_APP_NAME }"
+      ],
+      "Name is required": [
+        "Il nome è obbligatorio"
+      ],
+      "Unknown error.": [
+        "Errore sconosciuto."
       ]
     },
     "Error message": {
@@ -2542,6 +2554,9 @@
       ],
       "Your organization requires you to secure your access to ${ PASS_APP_NAME }": [
         "La tua organizzazione richiede che tu protegga l'accesso a ${ PASS_APP_NAME }"
+      ],
+      "New": [
+        "Nuovo"
       ]
     },
     "Keyboard key": {
@@ -3718,6 +3733,9 @@
       ],
       "ZIP or Postal code": [
         "CAP"
+      ],
+      "Token name": [
+        "Nome token"
       ]
     },
     "Link": {
@@ -5015,6 +5033,11 @@
       ],
       "Your subscription does not allow you to create multiple vaults. All items will be imported to your first vault. To import into multiple vaults upgrade your subscription.": [
         "Il tuo abbonamento non ti consente di creare più casseforti. Tutti gli elementi verranno importati nella tua prima cassaforte. Per importare in più casseforti, effettua l'upgrade del tuo abbonamento."
+      ]
+    },
+    "Upsell": {
+      "Get ${ planName }": [
+        "Ottieni ${ planName }"
       ]
     }
   }

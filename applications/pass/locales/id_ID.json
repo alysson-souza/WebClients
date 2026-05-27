@@ -744,6 +744,15 @@
       ],
       "Your password manager is not here? Request it.": [
         "Pengelola kata sandi Anda belum tersedia? Minta sekarang."
+      ],
+      "Copy": [
+        "Salin"
+      ],
+      "Hide": [
+        "Sembunyikan"
+      ],
+      "Load more": [
+        "Muat lebih banyak"
       ]
     },
     "Browser": {
@@ -1274,6 +1283,12 @@
       ],
       "Your PIN code was removed by another ${ PASS_APP_NAME } client": [
         "Kode PIN Anda telah dihapus oleh klien ${ PASS_APP_NAME } lainnya"
+      ],
+      "Name is required": [
+        "Nama wajib diisi"
+      ],
+      "Unknown error.": [
+        "Kesalahan yang tidak diketahui."
       ]
     },
     "Error message": {
@@ -2489,6 +2504,9 @@
       ],
       "Your organization requires you to secure your access to ${ PASS_APP_NAME }": [
         "Organisasi Anda mewajibkan Anda mengamankan akses ke ${ PASS_APP_NAME }"
+      ],
+      "New": [
+        "Baru"
       ]
     },
     "Keyboard key": {
@@ -3651,6 +3669,9 @@
       ],
       "ZIP or Postal code": [
         "ZIP atau kode pos"
+      ],
+      "Token name": [
+        "Nama token"
       ]
     },
     "Link": {

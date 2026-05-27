@@ -749,6 +749,33 @@
       ],
       "Your password manager is not here? Request it.": [
         "Är din lösenordshanterare inte här? Begär den."
+      ],
+      "Copy": [
+        "Kopiera"
+      ],
+      "Copy instructions": [
+        "Kopiera instruktioner"
+      ],
+      "Copy token": [
+        "Kopiera token"
+      ],
+      "Create token": [
+        "Skapa token"
+      ],
+      "Don't show this again": [
+        "Visa inte detta igen"
+      ],
+      "Load more": [
+        "Ladda mer"
+      ],
+      "Manage vault access": [
+        "Hantera valvåtkomst"
+      ],
+      "New token": [
+        "Ny token"
+      ],
+      "View agent activity": [
+        "Visa agentaktivitet"
       ]
     },
     "Browser": {
@@ -1285,6 +1312,54 @@
       ],
       "Your PIN code was removed by another ${ PASS_APP_NAME } client": [
         "Din PIN-kod togs bort av en annan ${ PASS_APP_NAME }-klient"
+      ],
+      "Biometric authentication failed.": [
+        "Biometrisk autentisering misslyckades."
+      ],
+      "Biometric lock is not configured.": [
+        "Biometriskt lås är inte konfigurerat."
+      ],
+      "Biometric lock setup failed.": [
+        "Biometrisk låsinställning misslyckades."
+      ],
+      "Encrypted communication with ${ PASS_APP_NAME } desktop app failed.": [
+        "Krypterad kommunikation med ${ PASS_APP_NAME }-appen för stationär dator misslyckades."
+      ],
+      "Failed to create access token": [
+        "Misslyckades att skapa åtkomsttoken"
+      ],
+      "Failed to delete access token": [
+        "Misslyckades att ta bort åtkomsttoken"
+      ],
+      "Failed to load access tokens": [
+        "Misslyckades att ladda åtkomsttoken"
+      ],
+      "Failed to update vault access": [
+        "Misslyckades att uppdatera valvåtkomst"
+      ],
+      "Name is required": [
+        "Namn är obligatoriskt"
+      ],
+      "Name must be 191 characters or fewer": [
+        "Namn måste vara 191 tecken långt eller färre"
+      ],
+      "The ${ PASS_APP_NAME } desktop app did not respond in time.": [
+        "${ PASS_APP_NAME }-appen för stationär dator svarade inte i tid."
+      ],
+      "The ${ PASS_APP_NAME } desktop app is locked, it must be unlocked.": [
+        "${ PASS_APP_NAME }-appen för stationär dator är låst, den måste vara upplåst."
+      ],
+      "The ${ PASS_APP_NAME } desktop app is not installed.": [
+        "${ PASS_APP_NAME }-appen för stationär dator är inte installerad."
+      ],
+      "The ${ PASS_APP_NAME } desktop app is not responding, is it running?": [
+        "${ PASS_APP_NAME }-appen för stationär dator svarar inte, körs den?"
+      ],
+      "The ${ PASS_APP_NAME } desktop app is signed in with a different account.": [
+        "${ PASS_APP_NAME }-appen för stationär dator är inloggad med ett annat konto."
+      ],
+      "Unknown error.": [
+        "Okänt fel."
       ]
     },
     "Error message": {
@@ -2554,6 +2629,92 @@
       ],
       "Your organization requires you to secure your access to ${ PASS_APP_NAME }": [
         "Din organisation kräver att du säkrar din åtkomst till ${ PASS_APP_NAME }"
+      ],
+      "${ selectedShareIds.size } selected": [
+        "${ selectedShareIds.size } valt"
+      ],
+      "Access token \"${ action.token.Name }\" will stop working immediately. This action cannot be undone.": [
+        "Åtkomsttoken “${ action.token.Name }“ kommer att sluta fungera omedelbart. Denna åtgärd kan inte ångras."
+      ],
+      "Between 60 (1 hour) and 525600 (1 year)": [
+        "Mellan 60 (1 timme) och 525600 (1 år)"
+      ],
+      "Copy this token now. For security reasons, it won't be shown again.": [
+        "Kopiera denna token nu. Av säkerhetsskäl kommer den inte att visas igen."
+      ],
+      "Create a token to integrate ${ PASS_APP_NAME } with your scripts and tools.": [
+        "Skapa en token för att integrera ${ PASS_APP_NAME } med dina skript och verktyg."
+      ],
+      "Created ${ createdDate }": [
+        "Skapat ${ createdDate }"
+      ],
+      "Created item": [
+        "Skapade objekt"
+      ],
+      "Deleted item": [
+        "Tog bort objekt"
+      ],
+      "Download pass-cli from ${ passCliLink }.": [
+        "Ladda ner pass-cli från ${ passCliLink }."
+      ],
+      "Enabling desktop auto-lock": [
+        "Aktiverar automatisk låsning för stationär dator"
+      ],
+      "Expired ${ abs } hour ago": [
+        "Löpte ut för ${ abs } timme sedan",
+        "Löpte ut för ${ abs } timmar sedan"
+      ],
+      "Expires in ${ hours } hour": [
+        "Löper ut om ${ hours } timme",
+        "Löper ut om ${ hours } timmar"
+      ],
+      "Expires in less than an hour": [
+        "Löper ut om mindre än timme"
+      ],
+      "Moved item to trash": [
+        "Flyttade objekt till papperskorg"
+      ],
+      "New": [
+        "Ny"
+      ],
+      "No activity recorded yet.": [
+        "Ingen aktivitet registrerad ännu."
+      ],
+      "No vaults available.": [
+        "Inga valv tillgängliga."
+      ],
+      "None selected": [
+        "Inget valt"
+      ],
+      "Read item": [
+        "Läs objekt"
+      ],
+      "Restored item from trash": [
+        "Återställde objekt från papperskorg"
+      ],
+      "Select the vaults \"${ token.Name }\" can read.": [
+        "Välj valvet som “${ token.Name }“ kan läsa."
+      ],
+      "This feature requires the ${ PASS_APP_NAME } desktop app to be installed and running during setup.": [
+        "Denna funktion kräver att ${ PASS_APP_NAME }-appen för stationär dator är installerad och körs under inställning."
+      ],
+      "Updated item": [
+        "Uppdaterade objekt"
+      ],
+      "Upgrade to ${ PASS_APP_NAME } Plus to create access tokens and use ${ PASS_APP_NAME } programmatically.": [
+        "Uppgradera till ${ PASS_APP_NAME } Plus för att skapa åtkomsttoken och använda ${ PASS_APP_NAME } programmatiskt."
+      ],
+      "Vault access granted": [
+        "Valvåtkomst beviljad"
+      ],
+      "You can now use your backup password to access ${ PASS_SHORT_APP_NAME } offline": [
+        "Du kan nu använda ditt reservlösenord för att komma åt ${ PASS_SHORT_APP_NAME } offline"
+      ],
+      "You can now use your extra password to access ${ PASS_SHORT_APP_NAME } offline": [
+        "Du kan nu använda ditt extra lösenord för att komma åt ${ PASS_SHORT_APP_NAME } offline"
+      ],
+      "You can now use your second password to access ${ PASS_SHORT_APP_NAME } offline": [
+        "Du kan nu använda ditt andra lösenord för att komma åt ${ PASS_SHORT_APP_NAME } offline"
       ]
     },
     "Keyboard key": {
@@ -3727,6 +3888,21 @@
       ],
       "ZIP or Postal code": [
         "Postnummer"
+      ],
+      "Access tokens": [
+        "Åtkomsttoken"
+      ],
+      "Expires in (minutes)": [
+        "Löper ut om (minuter)"
+      ],
+      "Token name": [
+        "Tokennamn"
+      ],
+      "Use for AI agent": [
+        "Använd för AI-agent"
+      ],
+      "Vault access": [
+        "Valvåtkomst"
       ]
     },
     "Link": {
@@ -3777,6 +3953,9 @@
       ],
       "${ reason } has been enabled": [
         "${ reason } har aktiverats"
+      ],
+      "Access token deleted": [
+        "Åtkomsttoken borttagen"
       ]
     },
     "Option": {
@@ -4037,6 +4216,12 @@
       ],
       "Used on ${ url }": [
         "Används på ${ url }"
+      ],
+      "e.g. 60": [
+        "t.ex. 60"
+      ],
+      "e.g. My automation script": [
+        "t.ex. “Mitt automatiseringsskript“"
       ]
     },
     "Security Center - Info": {
@@ -4681,6 +4866,24 @@
       "You’re about to permanently delete ${ aliasCount } alias.": [
         "Du håller på att ta bort ${ aliasCount } alias permanent.",
         "Du håller på att ta bort ${ aliasCount } alias permanent."
+      ],
+      "Access tokens require ${ PASS_APP_NAME } Plus": [
+        "Åtkomsttoken kräver ${ PASS_APP_NAME } Plus"
+      ],
+      "Activity for \"${ token.Name }\"": [
+        "Aktivitet för “${ token.Name }“"
+      ],
+      "Create new access token": [
+        "Skapa ny åtkomsttoken"
+      ],
+      "Delete access token?": [
+        "Ta bort åtkomsttoken?"
+      ],
+      "Manage vault access": [
+        "Hantera valvåtkomst"
+      ],
+      "Your new access token": [
+        "Din nya åtkomsttoken"
       ]
     },
     "Title_cloned_item": {
@@ -5024,6 +5227,45 @@
       ],
       "Your subscription does not allow you to create multiple vaults. All items will be imported to your first vault. To import into multiple vaults upgrade your subscription.": [
         "Din prenumeration tillåter inte att du skapar flera valv. Alla objekt kommer att importeras till ditt första valv. För att importera till flera valv, uppgradera din prenumeration."
+      ]
+    },
+    "Activity": {
+      "Activity": [
+        "Aktivitet"
+      ],
+      "Activity details could not be loaded.": [
+        "Aktivitetsdetaljer kunde inte laddas."
+      ],
+      "Folder": [
+        "Mapp"
+      ],
+      "Item": [
+        "Objekt"
+      ],
+      "Reason": [
+        "Orsak"
+      ],
+      "Vault": [
+        "Valv"
+      ]
+    },
+    "Status": {
+      "Active": [
+        "Aktiv"
+      ],
+      "Agent": [
+        "Agent"
+      ],
+      "Expired": [
+        "Löpt ut"
+      ],
+      "Expiring soon": [
+        "Löper snart ut"
+      ]
+    },
+    "Upsell": {
+      "Get ${ planName }": [
+        "Skaffa ${ planName }"
       ]
     }
   }

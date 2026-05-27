@@ -707,6 +707,9 @@
       ],
       "Your password manager is not here? Request it.": [
         "Az Ön jelszómenedzsere nem látható? Kérje."
+      ],
+      "Load more": [
+        "Több betöltése"
       ]
     },
     "Browser": {
@@ -1226,6 +1229,12 @@
       ],
       "Your PIN code was removed by another ${ PASS_APP_NAME } client": [
         "Egy másik ${ PASS_APP_NAME } kliens eltávolította az Ön PIN kódját."
+      ],
+      "Name is required": [
+        "Név megadása kötelező"
+      ],
+      "Unknown error.": [
+        "Ismeretlen hiba."
       ]
     },
     "Error message": {
@@ -2405,6 +2414,9 @@
       ],
       "Your organization requires you to secure your access to ${ PASS_APP_NAME }": [
         "Szervezete megköveteli, hogy biztosítsa a ${ PASS_APP_NAME } alkalmazáshoz való hozzáférését"
+      ],
+      "New": [
+        "Új"
       ]
     },
     "Label": {

@@ -711,6 +711,12 @@
       ],
       "Your password manager is not here? Request it.": [
         "Nie ma Twojego menadżera haseł? Zgłoś to."
+      ],
+      "Copy": [
+        "Kopiuj"
+      ],
+      "Load more": [
+        "Załaduj więcej"
       ]
     },
     "Browser": {
@@ -1236,6 +1242,12 @@
       ],
       "Your PIN code was removed by another ${ PASS_APP_NAME } client": [
         "Kod PIN został usunięty przez inną aplikację ${ PASS_APP_NAME }"
+      ],
+      "Name is required": [
+        "Nazwa jest wymagana"
+      ],
+      "Unknown error.": [
+        "Wystąpił nieznany błąd."
       ]
     },
     "Error message": {
@@ -2466,6 +2478,9 @@
       ],
       "Your organization requires you to secure your access to ${ PASS_APP_NAME }": [
         "Organizacja wymaga zabezpieczenia dostępu do ${ PASS_APP_NAME }"
+      ],
+      "New": [
+        "Nowy"
       ]
     },
     "Label": {
@@ -3659,6 +3674,9 @@
       ],
       "ZIP or Postal code": [
         "Kod pocztowy"
+      ],
+      "Token name": [
+        "Nazwa tokena"
       ]
     },
     "Link": {
@@ -4949,6 +4967,11 @@
       ],
       "Your subscription does not allow you to create multiple vaults. All items will be imported to your first vault. To import into multiple vaults upgrade your subscription.": [
         "Subskrypcja nie pozwala na tworzenie wielu sejfów. Wszystkie elementy zostaną zaimportowane do pierwszego sejfu. Ulepsz plan, aby importować do wielu sejfów."
+      ]
+    },
+    "Keyboard key": {
+      "V": [
+        "V"
       ]
     }
   }

@@ -749,6 +749,33 @@
       ],
       "Your password manager is not here? Request it.": [
         "No hi apareix el vostre gestor de contrasenyes? Demaneu-lo."
+      ],
+      "Copy": [
+        "Copia"
+      ],
+      "Copy instructions": [
+        "Copiar les instruccions"
+      ],
+      "Copy token": [
+        "Copiar el testimoni"
+      ],
+      "Create token": [
+        "Crear un testimoni"
+      ],
+      "Don't show this again": [
+        "No m'ho torneu a mostrar"
+      ],
+      "Load more": [
+        "Carrega'n més"
+      ],
+      "Manage vault access": [
+        "Gestionar l'accés a la caixa forta"
+      ],
+      "New token": [
+        "Nou testimoni"
+      ],
+      "View agent activity": [
+        "Vegeu l'activitat de l'agent"
       ]
     },
     "Browser": {
@@ -1285,6 +1312,75 @@
       ],
       "Your PIN code was removed by another ${ PASS_APP_NAME } client": [
         "Un altre client de ${ PASS_APP_NAME } ha eliminat el codi PIN"
+      ],
+      "A desktop unlock check is already in progress.": [
+        "Ja hi ha una comprovació de desbloqueig de l'escriptori en curs."
+      ],
+      "Biometric authentication failed.": [
+        "L'autenticació biomètrica ha fallat."
+      ],
+      "Biometric lock credentials do not match.": [
+        "Les credencials del bloqueig biomètric no coincideixen."
+      ],
+      "Biometric lock credentials not found.": [
+        "No s'han trobat les credencials del bloqueig biomètric."
+      ],
+      "Biometric lock is not configured.": [
+        "El bloqueig biomètric no està configurat."
+      ],
+      "Biometric lock setup failed.": [
+        "Ha fallat la configuració del bloqueig biomètric."
+      ],
+      "Couldn't load agent setup instructions. Please copy the token below, it won't be shown again.": [
+        "No s'han pogut carregar les instruccions de configuració de l'agent. Copieu el testimoni a continuació; no es tornarà a mostrar."
+      ],
+      "Encrypted communication with ${ PASS_APP_NAME } desktop app failed.": [
+        "La comunicació xifrada amb l'aplicació d'escriptori ${ PASS_APP_NAME } ha fallat."
+      ],
+      "Expiration must be between 60 minutes and 1 year": [
+        "La caducitat ha de ser d'entre 60 minuts i 1 any"
+      ],
+      "Failed to create access token": [
+        "No s'ha pogut crear l'identificador d'accés"
+      ],
+      "Failed to delete access token": [
+        "No s'ha pogut eliminar l'identificador d'accés"
+      ],
+      "Failed to load access tokens": [
+        "S'ha produït un error en carregar els identificadors d'accés"
+      ],
+      "Failed to load token actions": [
+        "S'ha produït un error en carregar les accions del testimoni"
+      ],
+      "Failed to update vault access": [
+        "No s'ha pogut actualitzar l'accés a la caixa forta"
+      ],
+      "Name is required": [
+        "Es requereix un nom."
+      ],
+      "Name must be 191 characters or fewer": [
+        "El nom ha de tenir com a màxim 191 caràcters"
+      ],
+      "The ${ PASS_APP_NAME } desktop app did not respond in time.": [
+        "L'aplicació d'escriptori ${ PASS_APP_NAME } no ha respost a temps."
+      ],
+      "The ${ PASS_APP_NAME } desktop app is locked, it must be unlocked.": [
+        "L'aplicació d'escriptori de ${ PASS_APP_NAME } està bloquejada, s'ha de desbloquejar."
+      ],
+      "The ${ PASS_APP_NAME } desktop app is not installed.": [
+        "L'aplicació d'escriptori ${ PASS_APP_NAME } no està instal·lada."
+      ],
+      "The ${ PASS_APP_NAME } desktop app is not responding, is it running?": [
+        "L'aplicació d'escriptori ${ PASS_APP_NAME } no respon, s'està executant?"
+      ],
+      "The ${ PASS_APP_NAME } desktop app is signed in with a different account.": [
+        "S'ha iniciat sessió a l'aplicació d'escriptori ${ PASS_APP_NAME }amb un compte diferent."
+      ],
+      "The ${ PASS_APP_NAME } desktop app should be logged in.": [
+        "L'aplicació d'escriptori ${ PASS_APP_NAME } hauria de tenir la sessió iniciada."
+      ],
+      "Unknown error.": [
+        "Hi ha hagut un error desconegut."
       ]
     },
     "Error message": {
@@ -2146,7 +2242,7 @@
         "Premeu Retorn per a copiar"
       ],
       "Protected by ${ PROTON_SENTINEL_LINK }, our advanced account protection program": [
-        "Protegit per ${ PROTON_SENTINEL_LINK }, el nostre programa avançat de protecció de comptes"
+        "Protegit per ${ PROTON_SENTINEL_LINK }, el nostre programa avançat de protecció del compte"
       ],
       "Reconnect": [
         "Torna a connectar"
@@ -2393,7 +2489,7 @@
         "Desbloquegeu ${ PASS_SHORT_APP_NAME } amb la segona contrasenya"
       ],
       "Unlock with biometrics": [
-        "Desbloqueja amb dades biomètriques"
+        "Desbloquegeu-ho amb dades biomètriques"
       ],
       "Unpinning item...": [
         "S'està desfixant l'element..."
@@ -2566,6 +2662,125 @@
       ],
       "Your organization requires you to secure your access to ${ PASS_APP_NAME }": [
         "La vostra organització us demana que assegureu el vostre accés a ${ PASS_APP_NAME }."
+      ],
+      "${ selectedShareIds.size } selected": [
+        "S'han seleccionat ${ selectedShareIds.size }"
+      ],
+      "Access token \"${ action.token.Name }\" is already expired. If deleted, it will no longer be shown.": [
+        "El testimoni d'accés \"${ action.token.Name }\" ja ha caducat. Si l'elimineu, no es tornarà a mostrar."
+      ],
+      "Access token \"${ action.token.Name }\" will stop working immediately. This action cannot be undone.": [
+        "L'identificador d'accés \"${ action.token.Name }\" deixarà de funcionar immediatament. Aquesta acció no es podrà desfer."
+      ],
+      "Access tokens, used together with ${ passCliLink }, allow you to automate CI/CD or give your AI agent scoped access to what it needs to run its job.": [
+        "Els identificadors d'accés, utilitzats juntament amb ${ passCliLink }, permeten automatitzar el CI/CD o donar al vostre agent d'IA un accés amb abast a allò que necessita per dur a terme la seva tasca."
+      ],
+      "Between 60 (1 hour) and 525600 (1 year)": [
+        "Entre 60 (1 hora) i 525600 (1 any)"
+      ],
+      "Copy the markdown below and send it to your AI agent. This is the only time the token will be shown.": [
+        "Copieu el contingut marcat a continuació i envieu-lo al vostre agent d'IA. Aquesta és l'única vegada que es mostrarà el testimoni."
+      ],
+      "Copy this token now. For security reasons, it won't be shown again.": [
+        "Copiar aquest testimoni ara. Per motius de seguretat, no es tornarà a mostrar."
+      ],
+      "Create a token to integrate ${ PASS_APP_NAME } with your scripts and tools.": [
+        "Creeu un testimoni per integrar ${ PASS_APP_NAME } amb els vostres scripts i eines."
+      ],
+      "Created ${ createdDate }": [
+        "S'ha creat ${ createdDate }"
+      ],
+      "Created item": [
+        "S'ha creat l'element"
+      ],
+      "Deleted item": [
+        "S'ha eliminat l'element"
+      ],
+      "Download pass-cli from ${ passCliLink }.": [
+        "Descarregueu-vos pass-cli des de ${ passCliLink }."
+      ],
+      "Enabling desktop auto-lock": [
+        "S'està habilitant el bloqueig automàtic de l'escriptori"
+      ],
+      "Every action this agent token has performed, newest first.": [
+        "Totes les accions que ha realitzat aquest testimoni d'agent, les més recents primer."
+      ],
+      "Expired ${ abs } hour ago": [
+        "Ha caducat fa ${ abs } hora",
+        "Ha caducat fa ${ abs } hores"
+      ],
+      "Expires in ${ hours } hour": [
+        "Caduca en ${ hours } hora",
+        "Caduca en ${ hours } hores"
+      ],
+      "Expires in less than an hour": [
+        "Caduca en menys d'una hora"
+      ],
+      "Log out of any existing session:": [
+        "Tanqueu totes les sessions obertes:"
+      ],
+      "Moved item to trash": [
+        "S'ha mogut l'element a la paperera"
+      ],
+      "New": [
+        "Nova"
+      ],
+      "No activity recorded yet.": [
+        "Encara no s'ha registrat cap activitat."
+      ],
+      "No vaults available.": [
+        "No hi ha cap caixa forta disponible."
+      ],
+      "None selected": [
+        "No se n'ha seleccionat cap"
+      ],
+      "Only tokens that expired in the last 30 days are shown. Older tokens are automatically deleted.": [
+        "Només es mostren els testimonis que han caducat en els darrers 30 dies. Els més antics s'eliminen automàticament."
+      ],
+      "Read item": [
+        "Llegir l'element"
+      ],
+      "Restored item from trash": [
+        "S'ha restaurat l'element de la paperera"
+      ],
+      "Select the vaults \"${ token.Name }\" can read.": [
+        "Seleccioneu les caixes fortes que \"${ token.Name }\" pugui llegir."
+      ],
+      "Test the token by logging in and listing vaults:": [
+        "Proveu el testimoni iniciant sessió i llistant les caixes fortes:"
+      ],
+      "The agent will be required to provide a reason for every action it performs, and each action will be recorded in an audit log you can review. After token creation, you'll get instructions to copy-paste into your AI agent.": [
+        "L'agent haurà de proporcionar un motiu per cada acció que realitzi, i cada acció es registrarà en un registre d'auditoria que podreu revisar. Després de la creació del testimoni, rebreu instruccions per copiar-lo i enganxar-lo al vostre agent d'IA."
+      ],
+      "Then you can go to ${ url } to copy the instructions to send to your AI agent.": [
+        "Llavors podeu anar a ${ url } per copiar les instruccions per enviar al vostre agent d'IA."
+      ],
+      "This feature requires the ${ PASS_APP_NAME } desktop app to be installed and running during setup.": [
+        "Aquesta funció requereix que l'aplicació d'escriptori ${ PASS_APP_NAME } estigui instal·lada i en execució durant la configuració."
+      ],
+      "This token gets read-only access to the vaults you select. It can read items, but cannot edit them, share vaults, or invite others. You can change this later.": [
+        "Aquest testimoni obté accés de només lectura a les caixes fortes que seleccioneu. Pot llegir elements, però no els pot editar, ni compartir caixes fortes, ni convidar altres persones. Podreu canviar-ho més endavant."
+      ],
+      "To set up biometrics unlock, ${ PASS_APP_NAME } requires a new browser permission. After you accept it, the extension will reload. Please re-open this page afterwards.": [
+        "Per configurar el desbloqueig biomètric, ${ PASS_APP_NAME } requereix un nou permís del navegador. Un cop l'hàgiu acceptat, l'extensió es tornarà a carregar. Torneu a obrir aquesta pàgina després."
+      ],
+      "Updated item": [
+        "S'ha actualitzat l'element"
+      ],
+      "Upgrade to ${ PASS_APP_NAME } Plus to create access tokens and use ${ PASS_APP_NAME } programmatically.": [
+        "Milloreu a ${ PASS_APP_NAME } Plus per crear identificadors d'accés i utilitzar ${ PASS_APP_NAME } de manera programàtica."
+      ],
+      "Vault access granted": [
+        "S'ha permès l'accés a la caixa forta"
+      ],
+      "You can now use your backup password to access ${ PASS_SHORT_APP_NAME } offline": [
+        "Ara podeu utilitzar la vostra contrasenya de recuperació per accedir a ${ PASS_SHORT_APP_NAME } fora de línia"
+      ],
+      "You can now use your extra password to access ${ PASS_SHORT_APP_NAME } offline": [
+        "Ara podeu utilitzar la vostra contrasenya addicional per accedir a ${ PASS_SHORT_APP_NAME } fora de línia"
+      ],
+      "You can now use your second password to access ${ PASS_SHORT_APP_NAME } offline": [
+        "Ara podeu utilitzar la vostra segona contrasenya per accedir a ${ PASS_SHORT_APP_NAME } fora de línia"
       ]
     },
     "Keyboard key": {
@@ -2790,7 +3005,7 @@
         "Targetes"
       ],
       "Catch-All": [
-        "Catch-all"
+        "Capturar-ho tot"
       ],
       "Checkbox": [
         "Casella de selecció"
@@ -3738,10 +3953,28 @@
         "Les vostres contrasenyes allà on sigueu."
       ],
       "ZIP": [
-        "Fitxer ZIP"
+        "ZIP"
       ],
       "ZIP or Postal code": [
         "Codi postal"
+      ],
+      "Access tokens": [
+        "Identificadors d'accés"
+      ],
+      "Expired tokens (${ expired.length })": [
+        "Testimonis caducats (${ expired.length })"
+      ],
+      "Expires in (minutes)": [
+        "Caducarà en (minuts)"
+      ],
+      "Token name": [
+        "Nom del testimoni"
+      ],
+      "Use for AI agent": [
+        "Per a ús de l'agent d'IA"
+      ],
+      "Vault access": [
+        "Accés a la caixa forta"
       ]
     },
     "Link": {
@@ -3792,6 +4025,9 @@
       ],
       "${ reason } has been enabled": [
         "S'ha activat ${ reason } "
+      ],
+      "Access token deleted": [
+        "S'ha eliminat l'identificador d'accés"
       ]
     },
     "Option": {
@@ -4052,6 +4288,12 @@
       ],
       "Used on ${ url }": [
         "Utilitzada a ${ url }"
+      ],
+      "e.g. 60": [
+        "per exemple: 60"
+      ],
+      "e.g. My automation script": [
+        "per exemple, el meu guió d'automatització"
       ]
     },
     "Security Center - Info": {
@@ -4696,6 +4938,33 @@
       "You’re about to permanently delete ${ aliasCount } alias.": [
         "Esteu a punt de suprimir permanentment ${ aliasCount } àlies.",
         "Esteu a punt de suprimir permanentment ${ aliasCount } àlies."
+      ],
+      "Access tokens require ${ PASS_APP_NAME } Plus": [
+        "Els identificadors d'accés requereixen ${ PASS_APP_NAME } Plus"
+      ],
+      "Activity for \"${ token.Name }\"": [
+        "Activitat de \"${ token.Name }\""
+      ],
+      "Agent setup instructions": [
+        "Instruccions de configuració de l'agent"
+      ],
+      "Browser permission required": [
+        "Es requereix permís del navegador"
+      ],
+      "Create new access token": [
+        "Crear un nou identificador d'accés"
+      ],
+      "Delete access token?": [
+        "Voleu eliminar l'identificador d'accés?"
+      ],
+      "Manage vault access": [
+        "Gestionar l'accés a la caixa forta"
+      ],
+      "No access tokens yet": [
+        "Encara no hi ha cap identificador d'accés"
+      ],
+      "Your new access token": [
+        "El vostre nou identificador d'accés"
       ]
     },
     "Title_cloned_item": {
@@ -5039,6 +5308,45 @@
       ],
       "Your subscription does not allow you to create multiple vaults. All items will be imported to your first vault. To import into multiple vaults upgrade your subscription.": [
         "La vostra subscripció no us permet crear diverses caixes fortes. Tots els elements s'importaran a la vostra primera caixa forta. Per a importar a diverses caixes fortes milloreu la vostra subscripció."
+      ]
+    },
+    "Activity": {
+      "Activity": [
+        "Activitat"
+      ],
+      "Activity details could not be loaded.": [
+        "No s'han pogut carregar els detalls de l'activitat."
+      ],
+      "Folder": [
+        "Carpeta"
+      ],
+      "Item": [
+        "Element"
+      ],
+      "Reason": [
+        "Motiu"
+      ],
+      "Vault": [
+        "Caixa forta"
+      ]
+    },
+    "Status": {
+      "Active": [
+        "Actiu"
+      ],
+      "Agent": [
+        "Agent"
+      ],
+      "Expired": [
+        "Ha caducat"
+      ],
+      "Expiring soon": [
+        "Caducarà aviat"
+      ]
+    },
+    "Upsell": {
+      "Get ${ planName }": [
+        "Obtingueu el pla ${ planName }"
       ]
     }
   }

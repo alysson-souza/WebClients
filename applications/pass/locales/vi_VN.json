@@ -744,6 +744,12 @@
       ],
       "Your password manager is not here? Request it.": [
         "Trình quản lý mật khẩu không có ở đây? Hãy yêu cầu."
+      ],
+      "Copy": [
+        "Sao chép"
+      ],
+      "Load more": [
+        "Tải thêm"
       ]
     },
     "Browser": {
@@ -1274,6 +1280,12 @@
       ],
       "Your PIN code was removed by another ${ PASS_APP_NAME } client": [
         "Mã PIN đã bị gỡ bỏ bởi một người dùng ${ PASS_APP_NAME } khác"
+      ],
+      "Name is required": [
+        "Bắt buộc phải điền tên"
+      ],
+      "Unknown error.": [
+        "Lỗi không xác định."
       ]
     },
     "Error message": {
@@ -2471,6 +2483,9 @@
       ],
       "Your organization requires you to secure your access to ${ PASS_APP_NAME }": [
         "Tổ chức yêu cầu phải bảo mật truy cập tới ${ PASS_APP_NAME }"
+      ],
+      "New": [
+        "Mới"
       ]
     },
     "Keyboard key": {
@@ -3630,6 +3645,9 @@
       ],
       "ZIP or Postal code": [
         "Mã bưu chính"
+      ],
+      "Token name": [
+        "Tên mã thông báo"
       ]
     },
     "Link": {

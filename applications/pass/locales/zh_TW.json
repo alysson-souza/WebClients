@@ -615,6 +615,12 @@
       ],
       "Your password manager is not here? Request it.": [
         "找不到您使用的密碼管理器？歡迎告訴我們"
+      ],
+      "Load more": [
+        "載入更多"
+      ],
+      "Start from scratch": [
+        "從空白檔建立"
       ]
     },
     "Browser": {
@@ -910,6 +916,18 @@
       ],
       "Wrong second password": [
         "第二密碼錯誤"
+      ],
+      "Name is required": [
+        "名稱為必填"
+      ],
+      "The ${ PASS_APP_NAME } desktop app is locked, it must be unlocked.": [
+        "已鎖定 ${ PASS_APP_NAME } 桌面應用程式，必須將其解鎖。"
+      ],
+      "The ${ PASS_APP_NAME } desktop app is not installed.": [
+        "尚未安裝${ PASS_APP_NAME } 桌面應用程式。"
+      ],
+      "Unknown error.": [
+        "未知的錯誤。"
       ]
     },
     "Error message": {
@@ -1431,7 +1449,7 @@
         "未設定"
       ],
       "Unlock with biometrics": [
-        "使用生物特徵辨識解鎖"
+        "使用生物辨識解鎖"
       ],
       "Unpinning item...": [
         "取消訂選項目..."
@@ -1513,6 +1531,15 @@
       ],
       "Your information was found on ${ displayedDate }": [
         "您的資料在 ${ displayedDate } 被發現。"
+      ],
+      "Enabling desktop auto-lock": [
+        "啟用桌面自動鎖定"
+      ],
+      "New": [
+        "加入"
+      ],
+      "Protected by ${ PROTON_SENTINEL_LINK }, our advanced account protection program": [
+        "安全防護採用 ${ PROTON_SENTINEL_LINK }，我們的進階帳號防護計劃。"
       ]
     },
     "Keyboard key": {
@@ -2498,6 +2525,21 @@
       ],
       "ZIP or Postal code": [
         "郵遞區號"
+      ],
+      "Issuing Country": [
+        "簽發國家"
+      ],
+      "Larger window": [
+        "較大的窗口"
+      ],
+      "Points Balance": [
+        "剩餘積分"
+      ],
+      "Social Security": [
+        "社會保障"
+      ],
+      "Software license": [
+        "軟體授權"
       ]
     },
     "Link": {
@@ -2701,6 +2743,12 @@
       ],
       "Used on ${ url }": [
         "使用${ url }"
+      ],
+      "e.g. My automation script": [
+        "例如：我的自動化指令碼"
+      ],
+      "Select option": [
+        "選擇選項"
       ]
     },
     "Security Center - Info": {

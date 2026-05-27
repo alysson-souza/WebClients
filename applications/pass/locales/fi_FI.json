@@ -728,6 +728,18 @@
       ],
       "Your password manager is not here? Request it.": [
         "Eikö salasanahallintaasi ole listattu? Pyydä sitä."
+      ],
+      "Copy": [
+        "Kopioi"
+      ],
+      "Don't show this again": [
+        "Älä näytä tätä uudelleen"
+      ],
+      "Hide": [
+        "Piilota"
+      ],
+      "Load more": [
+        "Lataa lisää"
       ]
     },
     "Browser": {
@@ -1223,6 +1235,51 @@
       ],
       "Your PIN code was removed by another ${ PASS_APP_NAME } client": [
         "PIN-koodisi poistettiin toiselta ${ PASS_APP_NAME } -päätteeltä"
+      ],
+      "A desktop unlock check is already in progress.": [
+        "Työpöydän lukituksen tarkistus on jo käynnissä."
+      ],
+      "Biometric authentication failed.": [
+        "Biometrinen tunnistautuminen epäonnistui."
+      ],
+      "Biometric lock credentials do not match.": [
+        "Biometriset tunnistetiedot eivät täsmää."
+      ],
+      "Biometric lock credentials not found.": [
+        "Biometrisiä tunnistetietoja ei löytynyt."
+      ],
+      "Biometric lock is not configured.": [
+        "Biometrisiä tunnistetietoja ei ole määritetty."
+      ],
+      "Biometric lock setup failed.": [
+        "Biometrisiä tunnistetietojen asettaminen epäonnistui."
+      ],
+      "Encrypted communication with ${ PASS_APP_NAME } desktop app failed.": [
+        "Salattu viestintä ${ PASS_APP_NAME } -työpöytäsovelluksen kanssa epäonnistui."
+      ],
+      "Name is required": [
+        "Nimi vaaditaan"
+      ],
+      "The ${ PASS_APP_NAME } desktop app did not respond in time.": [
+        "${ PASS_APP_NAME } -työpöytäsovellus ei vastannut ajoissa."
+      ],
+      "The ${ PASS_APP_NAME } desktop app is locked, it must be unlocked.": [
+        "${ PASS_APP_NAME } -työpöytäsovellus on lukittu; se on avattava."
+      ],
+      "The ${ PASS_APP_NAME } desktop app is not installed.": [
+        "${ PASS_APP_NAME } -työpöytäsovellusta ei ole asennettu."
+      ],
+      "The ${ PASS_APP_NAME } desktop app is not responding, is it running?": [
+        "${ PASS_APP_NAME } -työpöytäsovellus ei vastaa, onko se käynnissä?"
+      ],
+      "The ${ PASS_APP_NAME } desktop app is signed in with a different account.": [
+        "${ PASS_APP_NAME } -työpöytäsovellus on kirjattu sisään toisella tilillä."
+      ],
+      "The ${ PASS_APP_NAME } desktop app should be logged in.": [
+        "${ PASS_APP_NAME } -työpöytäsovelluksessa pitäisi olla kirjautuneena sisään."
+      ],
+      "Unknown error.": [
+        "Tuntematon virhe."
       ]
     },
     "Error message": {
@@ -2435,6 +2492,30 @@
       ],
       "Your organization requires you to secure your access to ${ PASS_APP_NAME }": [
         "Organisaatiosi vaatii, että suojaat pääsysi ${ PASS_APP_NAME }:iin"
+      ],
+      "Access token \"${ action.token.Name }\" is already expired. If deleted, it will no longer be shown.": [
+        "Käyttötunnus \"${ action.token.Name }\" on jo vanhentunut. Jos se poistetaan, sitä ei enää näytetä."
+      ],
+      "Enabling desktop auto-lock": [
+        "Otetaan käyttöön työpöydän automaattilukitus"
+      ],
+      "New": [
+        "Uusi"
+      ],
+      "Only tokens that expired in the last 30 days are shown. Older tokens are automatically deleted.": [
+        "Näkyvissä ovat vain viimeisten 30 päivän aikana vanhentuneet tunnukset. Vanhemmat tunnukset poistetaan automaattisesti."
+      ],
+      "This feature requires the ${ PASS_APP_NAME } desktop app to be installed and running during setup.": [
+        "Tämä ominaisuus edellyttää, että ${ PASS_APP_NAME } -työpöytäsovellus on asennettu ja käynnissä asennuksen aikana."
+      ],
+      "You can now use your backup password to access ${ PASS_SHORT_APP_NAME } offline": [
+        "Voit nyt käyttää varasalasanaasi päästäksesi ${ PASS_SHORT_APP_NAME } -sovellukseen offline-tilassa"
+      ],
+      "You can now use your extra password to access ${ PASS_SHORT_APP_NAME } offline": [
+        "Voit nyt käyttää lisäsalasanaasi päästäksesi ${ PASS_SHORT_APP_NAME } -sovellukseen offline-tilassa"
+      ],
+      "You can now use your second password to access ${ PASS_SHORT_APP_NAME } offline": [
+        "Voit nyt käyttää toista salasanaasi päästäksesi ${ PASS_SHORT_APP_NAME } -sovellukseen offline-tilassa"
       ]
     },
     "Keyboard key": {
@@ -3593,6 +3674,9 @@
       ],
       "ZIP or Postal code": [
         "Postinumero"
+      ],
+      "Expired tokens (${ expired.length })": [
+        "Vanhentuneet tunnukset (${ expired.length })"
       ]
     },
     "Link": {
@@ -4864,6 +4948,11 @@
       ],
       "Your subscription does not allow you to create multiple vaults. All items will be imported to your first vault. To import into multiple vaults upgrade your subscription.": [
         "Tilauksesi ei salli useiden holvien luontia, joten kaikki kohteet tuodaan ensimmäiseen holviisi. Tuo useisiin holveihin päivittämällä tilauksesi."
+      ]
+    },
+    "Upsell": {
+      "Get ${ planName }": [
+        "Hanki ${ planName }"
       ]
     }
   }
