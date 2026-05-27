@@ -2037,8 +2037,7 @@
         "\"${ payload.content.name }\" içindeki tüm ögeler taşınıyor"
       ],
       "Moving an item to another vault will erase its secure links.": [
-        "Bir ögeyi başka bir kasaya taşımak onun güvenli bağlantılarını siler.",
-        "Ögeleri başka bir kasaya taşımak onların güvenli bağlantılarını siler."
+        "Bir ögeyi başka bir kasaya taşımak güvenli bağlantılarını siler."
       ],
       "Moving items": [
         "Ögeler taşınıyor"
@@ -4023,7 +4022,7 @@
     },
     "new_plans: feature": {
       "Require 2FA for organization": [
-        "Kuruluş için iki adımlı doğrulama gereksin"
+        "Kuruluş çapında iki adımlı doğrulamayı zorlama"
       ],
       "SSO integration": [
         "Tek oturum açma bütünleştirmesi"
