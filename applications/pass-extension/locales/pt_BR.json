@@ -773,6 +773,30 @@
       ],
       "Settings": [
         "Configurações"
+      ],
+      "Copy": [
+        "Copiar"
+      ],
+      "Copy instructions": [
+        "Copiar instruções"
+      ],
+      "Copy token": [
+        "Copiar token"
+      ],
+      "Create token": [
+        "Criar token"
+      ],
+      "Load more": [
+        "Carregar mais"
+      ],
+      "Manage vault access": [
+        "Gerenciar acesso ao cofre"
+      ],
+      "New token": [
+        "Novo token"
+      ],
+      "View agent activity": [
+        "Ver a atividade do agente"
       ]
     },
     "Browser": {
@@ -1354,6 +1378,51 @@
       ],
       "The ${ PASS_APP_NAME } desktop app is not responding, is it running?": [
         "O aplicativo para área de trabalho do ${ PASS_APP_NAME } não está respondendo, está em execução?"
+      ],
+      "A desktop unlock check is already in progress.": [
+        "A verificação de desbloqueio do computador já está em andamento."
+      ],
+      "Biometric authentication failed.": [
+        "A autenticação biométrica falhou."
+      ],
+      "Biometric lock credentials do not match.": [
+        "As credenciais do bloqueio biométrico não correspondem."
+      ],
+      "Biometric lock credentials not found.": [
+        "As credenciais do bloqueio biométrico não foi encontrado"
+      ],
+      "Biometric lock is not configured.": [
+        "O bloqueio biométrico não está configurado"
+      ],
+      "Biometric lock setup failed.": [
+        "Falha na configuração do bloqueio biométrico"
+      ],
+      "Encrypted communication with ${ PASS_APP_NAME } desktop app failed.": [
+        "Falha na comunicação criptografado com o aplicativo para computador do ${ PASS_APP_NAME }"
+      ],
+      "Expiration must be between 60 minutes and 1 year": [
+        "O prazo de expiração deve ser entre 60 minutos e 1 ano"
+      ],
+      "Name is required": [
+        "O nome é obrigatório."
+      ],
+      "Name must be 191 characters or fewer": [
+        "O nome deve ter no máximo 191 caracteres"
+      ],
+      "The ${ PASS_APP_NAME } desktop app did not respond in time.": [
+        "O aplicativo para computador do ${ PASS_APP_NAME } não respondem a tempo"
+      ],
+      "The ${ PASS_APP_NAME } desktop app is signed in with a different account.": [
+        "O aplicativo para computador do ${ PASS_APP_NAME } está iniciado a sessão com uma conta diferente."
+      ],
+      "The ${ PASS_APP_NAME } desktop app should be logged in.": [
+        "O aplicativo para computador do ${ PASS_APP_NAME } deve estar iniciado a sessão."
+      ],
+      "This domain is already managed by your organization": [
+        "Esse domínio já é gerenciada pela sua organização"
+      ],
+      "Unknown error.": [
+        "Erro desconhecido."
       ]
     },
     "Error message": {
@@ -2041,8 +2110,7 @@
         "Movendo todos os itens de \"${ payload.content.name }\""
       ],
       "Moving an item to another vault will erase its secure links.": [
-        "Movendo um item para outro cofre apagará seu link seguro.",
-        "Movendo item para outro cofre apagará seus links seguros."
+        "Movendo um item para outro cofre apagará seu link seguro."
       ],
       "Moving items": [
         "Movendo itens"
@@ -2769,6 +2837,113 @@
       ],
       "You can now use your second password to access ${ PASS_SHORT_APP_NAME } offline": [
         "Você agora pode usar a segunda senha para acessar o ${ PASS_SHORT_APP_NAME } no modo off-line"
+      ],
+      "${ selectedShareIds.size } selected": [
+        "${ selectedShareIds.size } selecionado"
+      ],
+      "2FA code copied to clipboard": [
+        "Código A2F copiado para a área de transferência"
+      ],
+      "Access token \"${ action.token.Name }\" will stop working immediately. This action cannot be undone.": [
+        "O token de acesso “${ action.token.Name }” deixará de funcionar imediatamente. Esta ação não pode ser revertida."
+      ],
+      "Access tokens, used together with ${ passCliLink }, allow you to automate CI/CD or give your AI agent scoped access to what it needs to run its job.": [
+        "Os tokens de acesso, usados em conjunto com ${ passCliLink }, permitem automatizar o CI/CD ou conceder ao seu agente de IA acesso restrito ao que ele precisa para executar sua tarefa."
+      ],
+      "Between 60 (1 hour) and 525600 (1 year)": [
+        "Entre 60 (1 hora) e 525600 (1 ano)"
+      ],
+      "Copy the markdown below and send it to your AI agent. This is the only time the token will be shown.": [
+        "Copie o texto em Markdown abaixo e envie-o ao seu agente de IA. Esta será a única vez que o token será exibido."
+      ],
+      "Copy this token now. For security reasons, it won't be shown again.": [
+        "Copie este token agora. Por motivos de segurança, não será exibido novamente."
+      ],
+      "Create a token to integrate ${ PASS_APP_NAME } with your scripts and tools.": [
+        "Crie um token para integrar o ${ PASS_APP_NAME } aos seus scripts e ferramentas."
+      ],
+      "Created ${ createdDate }": [
+        "Criado em ${ createdDate }"
+      ],
+      "Created item": [
+        "Item criado"
+      ],
+      "Deleted item": [
+        "Item excluído"
+      ],
+      "Download pass-cli from ${ passCliLink }.": [
+        "Baixar pass-cli de ${ passCliLink }."
+      ],
+      "Every action this agent token has performed, newest first.": [
+        "Todas as ações realizadas por este token de agente, começando pela mais recente."
+      ],
+      "Expired ${ abs } hour ago": [
+        "Expirou há ${ abs } hora",
+        "Expirou há ${ abs } horass"
+      ],
+      "Expires in ${ hours } hour": [
+        "Expira em ${ hours } hora",
+        "Expira em ${ hours } horas"
+      ],
+      "Expires in less than an hour": [
+        "Expira em menos de uma hora"
+      ],
+      "Log out of any existing session:": [
+        "Sair de qualquer sessão ativa:"
+      ],
+      "Logging you out...": [
+        "Desconectando você..."
+      ],
+      "Moved item to trash": [
+        "Item para a lixeira movido"
+      ],
+      "New": [
+        "Novo"
+      ],
+      "No activity recorded yet.": [
+        "Nenhuma atividade registrada ainda."
+      ],
+      "No vaults available.": [
+        "Nenhum cofre disponível."
+      ],
+      "None selected": [
+        "Nenhum selecionado-"
+      ],
+      "Read item": [
+        "Ler item"
+      ],
+      "Restored item from trash": [
+        "Item restaurado da lixeira"
+      ],
+      "Select the vaults \"${ token.Name }\" can read.": [
+        "Selecione os cofres que \"${ token.Name }\" pode ler."
+      ],
+      "Test the token by logging in and listing vaults:": [
+        "Testar o token iniciando a sessão e listando os cofres:"
+      ],
+      "The agent will be required to provide a reason for every action it performs, and each action will be recorded in an audit log you can review. After token creation, you'll get instructions to copy-paste into your AI agent.": [
+        "O agente deverá justificar cada ação que realizar, e todas as ações serão registradas em um registro de auditoria que você poderá consultar. Após a criação do token, você receberá instruções para copiar e colar no seu agente de IA."
+      ],
+      "This token gets read-only access to the vaults you select. It can read items, but cannot edit them, share vaults, or invite others. You can change this later.": [
+        "Este token tem acesso somente de leitura aos cofres que você selecionar. Pode ler itens, mas não pode editá-los, compartilhar cofres nem convidar outras pessoas. Você pode alterar isso mais tarde."
+      ],
+      "To configure shortcuts, go to about:addons in Firefox and select \"Manage Extension Shortcuts\"": [
+        "Para configurar atalhos, acesse about:addons no Firefox e selecione \"Gerenciar atalhos de extensões \""
+      ],
+      "Unlock ${ PASS_APP_NAME } to access your passkeys": [
+        "Desbloqueie o ${ PASS_APP_NAME } para acessar sua chave de acesso"
+      ],
+      "Unlock ${ PASS_APP_NAME } to save this passkey": [
+        "Desbloqueie o ${ PASS_APP_NAME } para salvar esta chave de acesso"
+      ],
+      "Updated item": [
+        "Item atualizado"
+      ],
+      "Upgrade to ${ PASS_APP_NAME } Plus to create access tokens and use ${ PASS_APP_NAME } programmatically.": [
+        "Faça o upgrade para o ${ PASS_APP_NAME } Plus para criar tokens de acesso e usar o ${ PASS_APP_NAME } programaticamente."
+      ],
+      "Vault access granted": [
+        "Acesso ao cofre concedido"
       ]
     },
     "Keyboard key": {
@@ -3905,13 +4080,34 @@
         "CEP ou código postal"
       ],
       "Enable offline access": [
-        "Ativar acesso off-line"
+        "Ativar o acesso off-line"
       ],
       "Keyboard shortcuts": [
         "Atalhos do teclado"
       ],
       "Offline mode": [
         "Modo off-line"
+      ],
+      "Access tokens": [
+        "Tokens de acesso"
+      ],
+      "Auto-copy 2FA code": [
+        "Copiar código A2F automaticamente"
+      ],
+      "Expired tokens (${ expired.length })": [
+        "Tokens expirados (${ expired.length })"
+      ],
+      "Expires in (minutes)": [
+        "Expira em (minutos)"
+      ],
+      "Token name": [
+        "Nome do token"
+      ],
+      "Use for AI agent": [
+        "Uso para agente de IA"
+      ],
+      "Vault access": [
+        "Acesso ao cofre"
       ]
     },
     "Link": {
@@ -3957,6 +4153,9 @@
       ],
       "${ reason } has been enabled": [
         "${ reason } foi ativado"
+      ],
+      "Access token deleted": [
+        "Token de acesso excluído"
       ]
     },
     "Onboarding": {
@@ -4220,6 +4419,12 @@
       ],
       "Used on ${ url }": [
         "Usado no ${ url }"
+      ],
+      "e.g. 60": [
+        "por ex. 60"
+      ],
+      "e.g. My automation script": [
+        "ex. Meu script de automação"
       ]
     },
     "Security Center - Info": {
@@ -4891,6 +5096,30 @@
       "You’re about to permanently delete ${ aliasCount } alias.": [
         "Você está prestes a excluir permanentemente ${ aliasCount } alias.",
         "Você está prestes a excluir permanentemente ${ aliasCount } aliases."
+      ],
+      "Access tokens require ${ PASS_APP_NAME } Plus": [
+        "Os tokens de acesso exigem o ${ PASS_APP_NAME } Plus"
+      ],
+      "Activity for \"${ token.Name }\"": [
+        "Atividade para \"${ token.Name }\""
+      ],
+      "Agent setup instructions": [
+        "Intruções de confirmação de agente"
+      ],
+      "Create new access token": [
+        "Criar novo token de acesso"
+      ],
+      "Delete access token?": [
+        "Excluir token de acesso?"
+      ],
+      "Manage vault access": [
+        "Gerenciar acesso ao cofre"
+      ],
+      "No access tokens yet": [
+        "Ainda não há tokens de acesso"
+      ],
+      "Your new access token": [
+        "Seu novo token de acesso"
       ]
     },
     "Title_cloned_item": {
@@ -5234,6 +5463,43 @@
       ],
       "Too many attempts": [
         "Muitas tentativas"
+      ],
+      "Failed to autotype. Please make sure ${ PASS_APP_NAME } has the necessary permissions and try again (${ error }).": [
+        "Falha ao preencher automaticamente. Certifique-se de que ${ PASS_APP_NAME } tem as permissões necessárias e tente novamente (${ error })."
+      ],
+      "Offline": [
+        "Off-line"
+      ]
+    },
+    "Activity": {
+      "Activity": [
+        "Atividade"
+      ],
+      "Folder": [
+        "Pasta"
+      ],
+      "Item": [
+        "Item"
+      ],
+      "Reason": [
+        "Motivo"
+      ],
+      "Vault": [
+        "Cofre"
+      ]
+    },
+    "Status": {
+      "Active": [
+        "Ativo"
+      ],
+      "Agent": [
+        "Agente"
+      ],
+      "Expired": [
+        "Expirado"
+      ],
+      "Expiring soon": [
+        "Expirando em breve"
       ]
     }
   }

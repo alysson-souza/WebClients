@@ -765,6 +765,12 @@
       ],
       "Settings": [
         "Cài đặt"
+      ],
+      "Copy": [
+        "Sao chép"
+      ],
+      "Load more": [
+        "Tải thêm"
       ]
     },
     "Browser": {
@@ -1331,6 +1337,12 @@
       ],
       "Your PIN code was removed by another ${ PASS_APP_NAME } client": [
         "Mã PIN đã bị gỡ bỏ bởi một người dùng ${ PASS_APP_NAME } khác"
+      ],
+      "Name is required": [
+        "Bắt buộc phải điền tên"
+      ],
+      "Unknown error.": [
+        "Lỗi không xác định."
       ]
     },
     "Error message": {
@@ -1981,7 +1993,7 @@
         "Đang chuyển tất cả mục từ \"${ payload.content.name }\""
       ],
       "Moving an item to another vault will erase its secure links.": [
-        "Việc chuyển các mục sang kho khác sẽ xóa các liên kết bảo mật của chúng."
+        "Việc chuyển một mục sang kho khác sẽ xóa các liên kết bảo mật của mục đó."
       ],
       "Moving items": [
         "Đang chuyển mục"
@@ -2657,6 +2669,12 @@
       ],
       "When enabled, you can still access your ${ PASS_SHORT_APP_NAME } data if you lose internet connectivity or if ${ BRAND_NAME } servers are unreachable.": [
         "Khi được kích hoạt, vẫn có thể truy cập dữ liệu ${ PASS_SHORT_APP_NAME } nếu mất kết nối internet hoặc nếu không thể truy cập máy chủ ${ BRAND_NAME }."
+      ],
+      "Logging you out...": [
+        "Đang đăng xuất bạn..."
+      ],
+      "New": [
+        "Mới"
       ]
     },
     "Keyboard key": {
@@ -3783,6 +3801,9 @@
       ],
       "Offline mode": [
         "Chế độ ngoại tuyến"
+      ],
+      "Token name": [
+        "Tên mã thông báo"
       ]
     },
     "Link": {
@@ -5087,6 +5108,12 @@
       ],
       "Too many attempts": [
         "Quá nhiều lần thử"
+      ],
+      "Failed to autotype. Please make sure ${ PASS_APP_NAME } has the necessary permissions and try again (${ error }).": [
+        "Tự động nhập thất bại. Vui lòng đảm bảo ${ PASS_APP_NAME } có các quyền cần thiết và thử lại (${ error })."
+      ],
+      "Offline": [
+        "Ngoại tuyến"
       ]
     }
   }

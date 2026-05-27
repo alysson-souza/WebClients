@@ -645,6 +645,9 @@
       ],
       "Configure": [
         "配置"
+      ],
+      "Load more": [
+        "載入更多"
       ]
     },
     "Browser": {
@@ -982,6 +985,12 @@
       ],
       "The ${ PASS_APP_NAME } desktop app is not installed.": [
         "尚未安裝${ PASS_APP_NAME } 桌面應用程式。"
+      ],
+      "Name is required": [
+        "名稱為必填"
+      ],
+      "Unknown error.": [
+        "未知的錯誤。"
       ]
     },
     "Error message": {
@@ -1599,7 +1608,7 @@
         "使用個人識別號碼解鎖以存取設定"
       ],
       "Unlock with biometrics": [
-        "使用生物特徵辨識解鎖"
+        "使用生物辨識解鎖"
       ],
       "Unpinning item...": [
         "取消訂選項目..."
@@ -1717,6 +1726,15 @@
       ],
       "Not configured": [
         "未配置"
+      ],
+      "Logging you out...": [
+        "即將登出帳號..."
+      ],
+      "New": [
+        "加入"
+      ],
+      "Protected by ${ PROTON_SENTINEL_LINK }, our advanced account protection program": [
+        "安全防護採用 ${ PROTON_SENTINEL_LINK }，我們的進階帳號防護計劃。"
       ]
     },
     "Keyboard key": {
@@ -2915,6 +2933,9 @@
       ],
       "Select option": [
         "選擇選項"
+      ],
+      "e.g. My automation script": [
+        "例如：我的自動化指令碼"
       ]
     },
     "Security Center - Info": {
@@ -3612,6 +3633,9 @@
       ],
       "Your subscription does not allow you to create multiple vaults. All items will be imported to your first vault. To import into multiple vaults upgrade your subscription.": [
         "您的訂閱不允許新增多重保管庫。預設會把所有項目匯入第一個保管庫。若要匯入多重保管庫，需升級訂閱。"
+      ],
+      "Offline": [
+        "離線"
       ]
     }
   }

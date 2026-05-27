@@ -768,6 +768,12 @@
       ],
       "Settings": [
         "設定"
+      ],
+      "Copy": [
+        "コピー"
+      ],
+      "Load more": [
+        "さらに読み込む"
       ]
     },
     "Browser": {
@@ -1337,6 +1343,12 @@
       ],
       "Your PIN code was removed by another ${ PASS_APP_NAME } client": [
         "あなたのPIN コードは他のクライアント${ PASS_APP_NAME }にって削除されました"
+      ],
+      "Name is required": [
+        "名前は必須です"
+      ],
+      "Unknown error.": [
+        "不明なエラーが発生しました。"
       ]
     },
     "Error message": {
@@ -2662,7 +2674,19 @@
         "有効にすると、インターネット接続が失われた場合や ${ BRAND_NAME } サーバーに接続できない場合でも、${ PASS_SHORT_APP_NAME } データにアクセスできます。"
       ],
       "Moving an item to another vault will erase its secure links.": [
-        "アイテムを別の保管庫に移動すると、すべてのセキュアリンクが消去されます。"
+        "アイテムを別の保管庫に移動すると、そのアイテムのセキュアリンクはすべて消去されます。"
+      ],
+      "Access token \"${ action.token.Name }\" is already expired. If deleted, it will no longer be shown.": [
+        "アクセストークン「${ action.token.Name }」は既に期限切れです。削除すると、表示されなくなります。"
+      ],
+      "Logging you out...": [
+        "ログアウト中..."
+      ],
+      "New": [
+        "新規"
+      ],
+      "Only tokens that expired in the last 30 days are shown. Older tokens are automatically deleted.": [
+        "過去30日以内に有効期限が切れたトークンのみが表示されます。それより古いトークンは自動的に削除されます。"
       ]
     },
     "Keyboard key": {
@@ -3792,6 +3816,12 @@
       ],
       "Offline mode": [
         "オフラインモード"
+      ],
+      "Expired tokens (${ expired.length })": [
+        "期限切れトークン(${ expired.length })"
+      ],
+      "Token name": [
+        "トークン名"
       ]
     },
     "Link": {
@@ -5096,6 +5126,12 @@
       ],
       "Too many attempts": [
         "パスワード入力の試行が規定回数を超過しました"
+      ],
+      "Failed to autotype. Please make sure ${ PASS_APP_NAME } has the necessary permissions and try again (${ error }).": [
+        "オートタイプに失敗しました。${ PASS_APP_NAME } に必要な権限が付与されていることをご確認の上、もう一度お試しください (${ error })。"
+      ],
+      "Offline": [
+        "オフライン"
       ]
     }
   }

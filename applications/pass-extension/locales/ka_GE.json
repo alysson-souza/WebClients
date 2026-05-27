@@ -770,6 +770,15 @@
       ],
       "Settings": [
         "მორგება"
+      ],
+      "Configure": [
+        "მორგება"
+      ],
+      "Copy": [
+        "კოპირება"
+      ],
+      "Load more": [
+        "მეტის ჩატვირთვა"
       ]
     },
     "Browser": {
@@ -1327,6 +1336,12 @@
       ],
       "Your PIN code was removed by another ${ PASS_APP_NAME } client": [
         "თქვენი PIN-კოდი წაშლილია სხვა ${ PASS_APP_NAME }-ის კლიენტის მიერ"
+      ],
+      "Name is required": [
+        "სახელი აუცილებელია"
+      ],
+      "Unknown error.": [
+        "უცნობი შეცდომა."
       ]
     },
     "Error message": {
@@ -2661,6 +2676,15 @@
       "Moving an item to another vault will erase its secure links.": [
         "ელემენტის გადატანა სხვა საცავში მის დაცულ ბმულებს წაშლის.",
         "ელემენტის გადატანა სხვა საცავში მის დაცულ ბმულებს წაშლის."
+      ],
+      "Logging you out...": [
+        "მიმდინარეობს თქვენი სისტემიდან გაყვანა..."
+      ],
+      "New": [
+        "ახალი"
+      ],
+      "Not configured": [
+        "მორგებული არაა"
       ]
     },
     "Keyboard key": {
@@ -3804,6 +3828,9 @@
       ],
       "Offline mode": [
         "კავშირგარეშე რეჟიმი"
+      ],
+      "Token name": [
+        "კოდის სახელი"
       ]
     },
     "Link": {
@@ -5126,6 +5153,9 @@
       ],
       "Too many attempts": [
         "ძალიან ბევრი მცდელობა"
+      ],
+      "Offline": [
+        "გათიშულია"
       ]
     }
   }

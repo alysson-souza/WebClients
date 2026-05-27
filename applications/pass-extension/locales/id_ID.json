@@ -768,6 +768,12 @@
       ],
       "Settings": [
         "Pengaturan"
+      ],
+      "Copy": [
+        "Salin"
+      ],
+      "Load more": [
+        "Muat lebih banyak"
       ]
     },
     "Browser": {
@@ -1334,6 +1340,12 @@
       ],
       "Your PIN code was removed by another ${ PASS_APP_NAME } client": [
         "Kode PIN Anda telah dihapus oleh klien ${ PASS_APP_NAME } lainnya"
+      ],
+      "Name is required": [
+        "Nama wajib diisi"
+      ],
+      "Unknown error.": [
+        "Kesalahan yang tidak diketahui."
       ]
     },
     "Error message": {
@@ -2660,6 +2672,12 @@
       ],
       "When enabled, you can still access your ${ PASS_SHORT_APP_NAME } data if you lose internet connectivity or if ${ BRAND_NAME } servers are unreachable.": [
         "Saat diaktifkan, Anda masih dapat mengakses data ${ PASS_SHORT_APP_NAME } Anda jika Anda kehilangan konektivitas internet atau jika server ${ BRAND_NAME } tidak dapat dijangkau."
+      ],
+      "Logging you out...": [
+        "Mengeluarkan Anda dari akun..."
+      ],
+      "New": [
+        "Baru"
       ]
     },
     "Keyboard key": {
@@ -3789,6 +3807,9 @@
       ],
       "Offline mode": [
         "Mode luring"
+      ],
+      "Token name": [
+        "Nama token"
       ]
     },
     "Link": {
@@ -5093,6 +5114,12 @@
       ],
       "Too many attempts": [
         "Terlalu banyak percobaan"
+      ],
+      "Failed to autotype. Please make sure ${ PASS_APP_NAME } has the necessary permissions and try again (${ error }).": [
+        "Gagal melakukan penulisan otomatis. Pastikan ${ PASS_APP_NAME } memiliki izin yang diperlukan, lalu coba lagi (${ error })."
+      ],
+      "Offline": [
+        "Luring"
       ]
     }
   }

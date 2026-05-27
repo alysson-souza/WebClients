@@ -773,6 +773,15 @@
       ],
       "Settings": [
         "Ajustes"
+      ],
+      "Copy": [
+        "Copiar"
+      ],
+      "Copy instructions": [
+        "Copiar instrucciones"
+      ],
+      "Load more": [
+        "Cargar más"
       ]
     },
     "Browser": {
@@ -1357,6 +1366,39 @@
       ],
       "The ${ PASS_APP_NAME } desktop app is not responding, is it running?": [
         "La aplicación de escritorio ${ PASS_APP_NAME } no responde, ¿se está ejecutando?"
+      ],
+      "Biometric lock credentials do not match.": [
+        "Las credenciales del bloqueo biométrico no coinciden."
+      ],
+      "Biometric lock credentials not found.": [
+        "No se han encontrado las credenciales del bloqueo biométrico"
+      ],
+      "Biometric lock is not configured.": [
+        "No se ha configurado el bloqueo biométrico."
+      ],
+      "Biometric lock setup failed.": [
+        "Se ha producido un error al configurar el bloqueo biométrico."
+      ],
+      "Couldn't load agent setup instructions. Please copy the token below, it won't be shown again.": [
+        "No se pudieron cargar las instrucciones de configuración del agente. Copia el token que verás a continuación, no se mostrará de nuevo."
+      ],
+      "Failed to load access tokens": [
+        "No se pudieron cargar las instrucciones de configuración del agente. Copia el token que verás a continuación, no se mostrará de nuevo."
+      ],
+      "Failed to load token actions": [
+        "No se pudieron cargar las acciones de token"
+      ],
+      "Name is required": [
+        "El nombre es obligatorio."
+      ],
+      "The ${ PASS_APP_NAME } desktop app should be logged in.": [
+        "Se debe haber iniciado sesión en la aplicación de escritorio de ${ PASS_APP_NAME }."
+      ],
+      "This domain is already managed by your organization": [
+        "Tu organización ya gestiona este dominio"
+      ],
+      "Unknown error.": [
+        "Error desconocido."
       ]
     },
     "Error message": {
@@ -2041,8 +2083,7 @@
         "Moviendo todos los elementos desde \"${ payload.content.name }\""
       ],
       "Moving an item to another vault will erase its secure links.": [
-        "Mover un elemento a otra caja fuerte eliminará sus enlaces seguros.",
-        "Mover elementos a otra caja fuerte eliminará sus enlaces seguros."
+        "Mover un elemento a otra caja fuerte eliminará sus enlaces seguros."
       ],
       "Moving items": [
         "Moviendo elementos"
@@ -2772,6 +2813,44 @@
       ],
       "You will no longer have access to sharing, 2FA and other advanced features in ${ PASS_APP_NAME }": [
         "Ya no tendrás acceso a compartir, 2FA otras características avanzadas en ${ PASS_APP_NAME }"
+      ],
+      "${ selectedShareIds.size } selected": [
+        "${ selectedShareIds.size } seleccionados"
+      ],
+      "Access token \"${ action.token.Name }\" is already expired. If deleted, it will no longer be shown.": [
+        "El token de acceso \"${ action.token.Name }\" ya ha expirado. Si lo eliminas, no volverá a mostrarse."
+      ],
+      "Created item": [
+        "Elemento creado"
+      ],
+      "Expired ${ abs } hour ago": [
+        "Caducó hace ${ abs } hora",
+        "Caducó hace ${ abs } horas"
+      ],
+      "Expires in ${ hours } hour": [
+        "Caduca en ${ hours } hora",
+        "Caduca en ${ hours } horas"
+      ],
+      "Logging you out...": [
+        "Cerrando la sesión..."
+      ],
+      "Moved item to trash": [
+        "Elemento movido a la papelera"
+      ],
+      "New": [
+        "Nuevo"
+      ],
+      "Only tokens that expired in the last 30 days are shown. Older tokens are automatically deleted.": [
+        "Solo se muestran los tokens que expiraron en los últimos 30 días. Los tokens más antiguos se eliminan automáticamente."
+      ],
+      "Unlock ${ PASS_APP_NAME } to access your passkeys": [
+        "Desbloquea ${ PASS_APP_NAME } para acceder a tus claves de acceso"
+      ],
+      "Unlock ${ PASS_APP_NAME } to save this passkey": [
+        "Desbloquea ${ PASS_APP_NAME } para guardar esta clave de acceso"
+      ],
+      "Updated item": [
+        "Elemento actualizado"
       ]
     },
     "Keyboard key": {
@@ -3915,6 +3994,12 @@
       ],
       "Offline mode": [
         "Modo sin conexión"
+      ],
+      "Access tokens": [
+        "Tokens de acceso"
+      ],
+      "Expired tokens (${ expired.length })": [
+        "Tokens expirados (${ expired.length })"
       ]
     },
     "Link": {
@@ -4223,6 +4308,9 @@
       ],
       "Used on ${ url }": [
         "Utilizado en ${ url }"
+      ],
+      "e.g. My automation script": [
+        "por ejemplo, mi script de automatización"
       ]
     },
     "Security Center - Info": {
@@ -5237,6 +5325,17 @@
       ],
       "Too many attempts": [
         "Hubo demasiados intentos."
+      ],
+      "Failed to autotype. Please make sure ${ PASS_APP_NAME } has the necessary permissions and try again (${ error }).": [
+        "Fallo al autocompletar. Asegúrate de que ${ PASS_APP_NAME } tiene los permisos necesarios e inténtalo de nuevo (${ error })."
+      ],
+      "Offline": [
+        "Sin conexión"
+      ]
+    },
+    "Status": {
+      "Agent": [
+        "Agente"
       ]
     }
   }

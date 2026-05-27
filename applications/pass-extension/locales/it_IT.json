@@ -767,6 +767,12 @@
       ],
       "Settings": [
         "Consenti"
+      ],
+      "Copy": [
+        "Copia"
+      ],
+      "Load more": [
+        "Carica di più"
       ]
     },
     "Browser": {
@@ -1339,6 +1345,12 @@
       ],
       "Your PIN code was removed by another ${ PASS_APP_NAME } client": [
         "Il tuo codice PIN è stato rimosso da un altro client ${ PASS_APP_NAME }"
+      ],
+      "Name is required": [
+        "Il nome è obbligatorio"
+      ],
+      "Unknown error.": [
+        "Errore sconosciuto."
       ]
     },
     "Error message": {
@@ -2017,8 +2029,7 @@
         "Spostamento di tutti gli elementi da \"${ payload.content.name }\" in corso"
       ],
       "Moving an item to another vault will erase its secure links.": [
-        "Spostare un elemento in un'altra cassaforte cancellerà i suoi link sicuri.",
-        "Spostare degli elementi in un'altra cassaforte cancellerà i loro link sicuri."
+        "Spostare un elemento in un'altra cassaforte cancellerà i suoi link sicuri."
       ],
       "Moving items": [
         "Spostamento degli elementi"
@@ -2715,6 +2726,15 @@
       ],
       "When enabled, you can still access your ${ PASS_SHORT_APP_NAME } data if you lose internet connectivity or if ${ BRAND_NAME } servers are unreachable.": [
         "Quando abilitata, puoi comunque accedere ai tuoi dati ${ PASS_SHORT_APP_NAME } se perdi la connessione Internet o se i server ${ BRAND_NAME } non sono raggiungibili."
+      ],
+      "Logging you out...": [
+        "Disconnessione in corso"
+      ],
+      "New": [
+        "Nuovo"
+      ],
+      "To configure shortcuts, go to about:addons in Firefox and select \"Manage Extension Shortcuts\"": [
+        "Per configurare le scorciatoie, vai su about:addons in Firefox e seleziona \"Gestisci scorciatoie estensioni\""
       ]
     },
     "Keyboard key": {
@@ -3858,6 +3878,9 @@
       ],
       "Offline mode": [
         "Modalità offline"
+      ],
+      "Token name": [
+        "Nome token"
       ]
     },
     "Link": {
@@ -5180,6 +5203,12 @@
       ],
       "Too many attempts": [
         "Troppi tentativi"
+      ],
+      "Failed to autotype. Please make sure ${ PASS_APP_NAME } has the necessary permissions and try again (${ error }).": [
+        "Digitazione automatica fallita. Assicurati che ${ PASS_APP_NAME } abbia i permessi necessari e riprova (${ error })."
+      ],
+      "Offline": [
+        "Offline"
       ]
     }
   }

@@ -729,6 +729,12 @@
       ],
       "Settings": [
         "Ustawienia"
+      ],
+      "Copy": [
+        "Kopiuj"
+      ],
+      "Load more": [
+        "Załaduj więcej"
       ]
     },
     "Browser": {
@@ -1281,6 +1287,12 @@
       ],
       "Your PIN code was removed by another ${ PASS_APP_NAME } client": [
         "Kod PIN został usunięty przez inną aplikację ${ PASS_APP_NAME }"
+      ],
+      "Name is required": [
+        "Nazwa jest wymagana"
+      ],
+      "Unknown error.": [
+        "Wystąpił nieznany błąd."
       ]
     },
     "Error message": {
@@ -1976,10 +1988,7 @@
         "Przenoszenie wszystkich elementów z sejfu \"${ payload.content.name }\""
       ],
       "Moving an item to another vault will erase its secure links.": [
-        "Przeniesienie elementu do innego sejfu spowoduje usunięcie jego linków.",
-        "Przeniesienie elementów do innego sejfu spowoduje usunięcie ich linków.",
-        "Przeniesienie elementów do innego sejfu spowoduje usunięcie ich linków.",
-        "Przeniesienie elementów do innego sejfu spowoduje usunięcie ich linków."
+        "Przeniesienie elementu do innego sejfu spowoduje usunięcie jego linków."
       ],
       "Moving items": [
         "Przenoszenie elementów"
@@ -2625,6 +2634,12 @@
       ],
       "Reconnecting": [
         "Ponowne łączenie"
+      ],
+      "Logging you out...": [
+        "Trwa wylogowywanie..."
+      ],
+      "New": [
+        "Nowy"
       ]
     },
     "Label": {
@@ -3782,6 +3797,9 @@
       ],
       "Offline mode": [
         "Tryb offline"
+      ],
+      "Token name": [
+        "Nazwa tokena"
       ]
     },
     "Link": {
@@ -5100,6 +5118,14 @@
       ],
       "Too many attempts": [
         "Zbyt wiele prób"
+      ],
+      "Offline": [
+        "Jesteś w trybie offline"
+      ]
+    },
+    "Keyboard key": {
+      "V": [
+        "V"
       ]
     }
   }

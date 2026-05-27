@@ -773,6 +773,30 @@
       ],
       "Settings": [
         "Ρυθμίσεις"
+      ],
+      "Copy": [
+        "Αντιγραφή"
+      ],
+      "Copy instructions": [
+        "Αντιγραφή οδηγιών"
+      ],
+      "Copy token": [
+        "Αντιγραφή διακριτικού"
+      ],
+      "Create token": [
+        "Δημιουργία διακριτικού"
+      ],
+      "Load more": [
+        "Φόρτωση περισσοτέρων"
+      ],
+      "Manage vault access": [
+        "Διαχείριση πρόσβασης κρύπτης"
+      ],
+      "New token": [
+        "Νέο διακριτικό"
+      ],
+      "View agent activity": [
+        "Προβολή δραστηριότητας πράκτορα"
       ]
     },
     "Browser": {
@@ -1357,6 +1381,69 @@
       ],
       "The ${ PASS_APP_NAME } desktop app is not responding, is it running?": [
         "Η εφαρμογή επιφάνειας εργασίας ${ PASS_APP_NAME } δεν ανταποκρίνεται, εκτελείται;"
+      ],
+      "A desktop unlock check is already in progress.": [
+        "Ένας έλεγχος ξεκλειδώματος επιφάνειας εργασίας είναι ήδη σε εξέλιξη."
+      ],
+      "Biometric authentication failed.": [
+        "Ο βιομετρικός έλεγχος ταυτότητας απέτυχε."
+      ],
+      "Biometric lock credentials do not match.": [
+        "Τα διαπιστευτήρια βιομετρικού κλειδώματος δεν ταιριάζουν."
+      ],
+      "Biometric lock credentials not found.": [
+        "Τα διαπιστευτήρια βιομετρικού κλειδώματος δε βρέθηκαν."
+      ],
+      "Biometric lock is not configured.": [
+        "Το βιομετρικό κλείδωμα δεν έχει ρυθμιστεί."
+      ],
+      "Biometric lock setup failed.": [
+        "Η ρύθμιση του βιομετρικού κλειδώματος απέτυχε."
+      ],
+      "Couldn't load agent setup instructions. Please copy the token below, it won't be shown again.": [
+        "Δεν ήταν δυνατή η φόρτωση των οδηγιών ρύθμισης του πράκτορα. Παρακαλούμε αντιγράψτε το παρακάτω διακριτικό, δε θα εμφανιστεί ξανά."
+      ],
+      "Encrypted communication with ${ PASS_APP_NAME } desktop app failed.": [
+        "Η κρυπτογραφημένη επικοινωνία με την εφαρμογή επιτραπέζιου υπολογιστή ${ PASS_APP_NAME } απέτυχε."
+      ],
+      "Expiration must be between 60 minutes and 1 year": [
+        "Η λήξη πρέπει να είναι μεταξύ 60 λεπτών και 1 έτους"
+      ],
+      "Failed to create access token": [
+        "Αποτυχία δημιουργίας διακριτικού πρόσβασης"
+      ],
+      "Failed to delete access token": [
+        "Αποτυχία κατάργησης διακριτικού πρόσβασης"
+      ],
+      "Failed to load access tokens": [
+        "Αποτυχία φόρτωσης των διακριτικών πρόσβασης"
+      ],
+      "Failed to load token actions": [
+        "Αποτυχία φόρτωσης ενεργειών διακριτικού"
+      ],
+      "Failed to update vault access": [
+        "Αποτυχία ενημέρωσης πρόσβασης κρύπτης"
+      ],
+      "Name is required": [
+        "Απαιτείται όνομα"
+      ],
+      "Name must be 191 characters or fewer": [
+        "Το όνομα πρέπει να έχει 191 χαρακτήρες ή λιγότερους"
+      ],
+      "The ${ PASS_APP_NAME } desktop app did not respond in time.": [
+        "Η επιτραπέζια εφαρμογή ${ PASS_APP_NAME } δεν ανταποκρίθηκε εγκαίρως."
+      ],
+      "The ${ PASS_APP_NAME } desktop app is signed in with a different account.": [
+        "Η εφαρμογή επιφάνειας εργασίας ${ PASS_APP_NAME } είναι συνδεδεμένη με διαφορετικό λογαριασμό."
+      ],
+      "The ${ PASS_APP_NAME } desktop app should be logged in.": [
+        "Θα πρέπει να συνδεθείτε στην εφαρμογή ${ PASS_APP_NAME } για υπολογιστές."
+      ],
+      "This domain is already managed by your organization": [
+        "Αυτός ο τομέας διαχειρίζεται ήδη από τον οργανισμό σας"
+      ],
+      "Unknown error.": [
+        "Άγνωστο σφάλμα."
       ]
     },
     "Error message": {
@@ -2526,7 +2613,7 @@
         "Ξεκλειδώστε το με το PIN σας για πρόσβαση στις ρυθμίσεις"
       ],
       "Unlock with biometrics": [
-        "Βιομετρικό ξεκλείδωμα"
+        "Ξεκλείδωμα με βιομετρικά στοιχεία"
       ],
       "Unpinning item...": [
         "Ξεκαρφίτσωμα στοιχείου..."
@@ -2772,6 +2859,128 @@
       "Moving an item to another vault will erase its secure links.": [
         "Η μετακίνηση ενός στοιχείου σε άλλη κρύπτη θα διαγράψει τους ασφαλείς συνδέσμους του.",
         "Η μετακίνηση στοιχείων σε άλλη κρύπτη θα διαγράψει τους ασφαλείς συνδέσμους των."
+      ],
+      "${ selectedShareIds.size } selected": [
+        "${ selectedShareIds.size } επιλεγμένες"
+      ],
+      "2FA code copied to clipboard": [
+        "Ο κωδικός 2FA αντιγράφηκε στο πρόχειρο"
+      ],
+      "Access token \"${ action.token.Name }\" is already expired. If deleted, it will no longer be shown.": [
+        "Το διακριτικό πρόσβασης \"${ action.token.Name }\" έχει ήδη λήξει. Εάν διαγραφεί, δε θα εμφανίζεται πλέον."
+      ],
+      "Access token \"${ action.token.Name }\" will stop working immediately. This action cannot be undone.": [
+        "Το διακριτικό πρόσβασης \"${ action.token.Name }\" θα σταματήσει να λειτουργεί αμέσως. Αυτή η ενέργεια δεν μπορεί να αναιρεθεί."
+      ],
+      "Access tokens, used together with ${ passCliLink }, allow you to automate CI/CD or give your AI agent scoped access to what it needs to run its job.": [
+        "Τα διακριτικά πρόσβασης, που χρησιμοποιούνται μαζί με το ${ passCliLink }, σας επιτρέπουν να αυτοματοποιήσετε CI/CD ή να δώσετε στον AI πράκτορά σας περιορισμένη πρόσβαση σε ότι χρειάζεται για να εκτελέσει την εργασία του."
+      ],
+      "After autofilling a login, its 2FA code is copied to the clipboard.": [
+        "Μετά την αυτόματη συμπλήρωση μιας σύνδεσης, ο κωδικός 2FA αντιγράφεται στο πρόχειρο."
+      ],
+      "Between 60 (1 hour) and 525600 (1 year)": [
+        "Μεταξύ 60 (1 ώρα) και 525600 (1 χρόνο)"
+      ],
+      "Copy the markdown below and send it to your AI agent. This is the only time the token will be shown.": [
+        "Αντιγράψτε το παρακάτω markdown και στείλτε το στον πράκτορά ΤΝ σας. Αυτή είναι η μοναδική φορά που θα εμφανιστεί το διακριτικό."
+      ],
+      "Copy this token now. For security reasons, it won't be shown again.": [
+        "Αντιγράψτε αυτό το διακριτικό τώρα. Για λόγους ασφαλείας, δε θα εμφανιστεί ξανά."
+      ],
+      "Create a token to integrate ${ PASS_APP_NAME } with your scripts and tools.": [
+        "Δημιουργήστε ένα διακριτικό για να ενσωματώσετε το ${ PASS_APP_NAME } με τα σενάρια και τα εργαλεία σας."
+      ],
+      "Created ${ createdDate }": [
+        "Δημιουργήθηκε ${ createdDate }"
+      ],
+      "Created item": [
+        "Δημιουργημένο στοιχείο"
+      ],
+      "Deleted item": [
+        "Διαγραμμένο στοιχείο"
+      ],
+      "Download pass-cli from ${ passCliLink }.": [
+        "Κατεβάστε το pass-cli από το ${ passCliLink }."
+      ],
+      "Every action this agent token has performed, newest first.": [
+        "Κάθε ενέργεια που έχει εκτελέσει αυτό το διακριτικό πράκτορα, η πιο πρόσφατη πρώτη."
+      ],
+      "Expired ${ abs } hour ago": [
+        "Έληξε πριν από ${ abs } ώρα",
+        "Έληξε πριν από ${ abs } ώρες"
+      ],
+      "Expires in ${ hours } hour": [
+        "Λήγει σε ${ hours } ώρα",
+        "Λήγει σε ${ hours } ώρες"
+      ],
+      "Expires in less than an hour": [
+        "Λήγει σε λιγότερο από μία ώρα"
+      ],
+      "Log out of any existing session:": [
+        "Αποσυνδεθείτε από οποιαδήποτε υπάρχουσα συνεδρία:"
+      ],
+      "Logging you out...": [
+        "Αποσύνδεση..."
+      ],
+      "Moved item to trash": [
+        "Μεταφέρθηκε αντικείμενο στα διαγραμμένα"
+      ],
+      "New": [
+        "Νέο"
+      ],
+      "No activity recorded yet.": [
+        "Δεν έχει καταγραφεί καμία δραστηριότητα ακόμα."
+      ],
+      "No vaults available.": [
+        "Δεν υπάρχουν διαθέσιμες κρύπτες."
+      ],
+      "None selected": [
+        "Κανένα επιλεγμένο"
+      ],
+      "Only tokens that expired in the last 30 days are shown. Older tokens are automatically deleted.": [
+        "Εμφανίζονται μόνο τα διακριτικά που έληξαν τις τελευταίες 30 ημέρες. Τα παλαιότερα διακριτικά διαγράφονται αυτόματα."
+      ],
+      "Read item": [
+        "Διαβασμένο στοιχείο"
+      ],
+      "Restored item from trash": [
+        "Αποκαταστάθηκε αντικείμενο από τα διαγραμμένα"
+      ],
+      "Select the vaults \"${ token.Name }\" can read.": [
+        "Επιλέξτε τις κρύπτες που μπορεί να διαβάσει το \"${ token.Name }\"."
+      ],
+      "Test the token by logging in and listing vaults:": [
+        "Δοκιμάστε το διακριτικό συνδεόμενοι και καταγράφοντας τις κρύπτες:"
+      ],
+      "The agent will be required to provide a reason for every action it performs, and each action will be recorded in an audit log you can review. After token creation, you'll get instructions to copy-paste into your AI agent.": [
+        "Ο πράκτορας θα πρέπει να παρέχει έναν λόγο για κάθε ενέργεια που εκτελεί, και κάθε ενέργεια θα καταγράφεται σε ένα αρχείο ελέγχου που μπορείτε να εξετάσετε. Μετά τη δημιουργία του διακριτικού, θα λάβετε οδηγίες για αντιγραφή-επικόλληση στον πράκτορά ΤΝ σας."
+      ],
+      "Then you can go to ${ url } to copy the instructions to send to your AI agent.": [
+        "Στη συνέχεια μπορείτε να μεταβείτε στο ${ url } για να αντιγράψετε τις οδηγίες που θα στείλετε στον πράκτορα ΤΝ σας."
+      ],
+      "This token gets read-only access to the vaults you select. It can read items, but cannot edit them, share vaults, or invite others. You can change this later.": [
+        "Αυτό το διακριτικό αποκτά πρόσβαση μόνο για ανάγνωση στις κρύπτες που επιλέγετε. Μπορεί να διαβάζει στοιχεία, αλλά δεν μπορεί να τα επεξεργαστεί, να κοινοποιήσει κρύπτες ή να προσκαλέσει άλλους. Μπορείτε να το αλλάξετε αργότερα."
+      ],
+      "To configure shortcuts, go to about:addons in Firefox and select \"Manage Extension Shortcuts\"": [
+        "Για να ρυθμίσετε τις συντομεύσεις, πηγαίνετε στο about:addons στον Firefox και επιλέξτε \"Διαχείριση Συντομεύσεων Προεκτάσεων\""
+      ],
+      "To set up biometrics unlock, ${ PASS_APP_NAME } requires a new browser permission. After you accept it, the extension will reload. Please re-open this page afterwards.": [
+        "Για να ρυθμίσετε το ξεκλείδωμα με βιομετρικά στοιχεία, το ${ PASS_APP_NAME } απαιτεί νέο δικαίωμα περιήγησης. Αφού το αποδεχτείτε, η επέκταση θα φορτώσει ξανά. Ανοίξτε ξανά αυτήν τη σελίδα στη συνέχεια."
+      ],
+      "Unlock ${ PASS_APP_NAME } to access your passkeys": [
+        "Ξεκλειδώστε το ${ PASS_APP_NAME } για να αποκτήσετε πρόσβαση στους κωδικούς πρόσβασής σας"
+      ],
+      "Unlock ${ PASS_APP_NAME } to save this passkey": [
+        "Ξεκλειδώστε το ${ PASS_APP_NAME } για να αποθηκεύσετε αυτόν τον κωδικό πρόσβασης"
+      ],
+      "Updated item": [
+        "Επεξεργασμένο στοιχείο"
+      ],
+      "Upgrade to ${ PASS_APP_NAME } Plus to create access tokens and use ${ PASS_APP_NAME } programmatically.": [
+        "Αναβαθμίστε σε ${ PASS_APP_NAME } Plus για να δημιουργήσετε διακριτικά πρόσβασης και να χρησιμοποιήσετε το ${ PASS_APP_NAME } μέσω προγραμματισμού."
+      ],
+      "Vault access granted": [
+        "Η πρόσβαση στην κρύπτη χορηγήθηκε"
       ]
     },
     "Keyboard key": {
@@ -3915,6 +4124,27 @@
       ],
       "Offline mode": [
         "Λειτουργία χωρίς σύνδεση"
+      ],
+      "Access tokens": [
+        "Διακριτικά πρόσβασης"
+      ],
+      "Auto-copy 2FA code": [
+        "Αυτόματη αντιγραφή κωδικού 2FA"
+      ],
+      "Expired tokens (${ expired.length })": [
+        "Ληγμένα διακριτικά (${ expired.length })"
+      ],
+      "Expires in (minutes)": [
+        "Λήγει σε (λεπτά)"
+      ],
+      "Token name": [
+        "Όνομα διακριτικού"
+      ],
+      "Use for AI agent": [
+        "Χρήση για πράκτορα ΤΝ"
+      ],
+      "Vault access": [
+        "Πρόσβαση κρύπτης"
       ]
     },
     "Link": {
@@ -3960,6 +4190,9 @@
       ],
       "${ reason } has been enabled": [
         "${ reason } έχει ενεργοποιηθεί"
+      ],
+      "Access token deleted": [
+        "Το διακριτικό πρόσβασης έχει διαγραφεί"
       ]
     },
     "Onboarding": {
@@ -4223,6 +4456,12 @@
       ],
       "Used on ${ url }": [
         "Χρησιμοποιείται στο ${ url }"
+      ],
+      "e.g. 60": [
+        "π.χ. 60"
+      ],
+      "e.g. My automation script": [
+        "π.χ. Το σενάριο αυτοματοποίησής μου"
       ]
     },
     "Security Center - Info": {
@@ -4894,6 +5133,33 @@
       "You’re about to permanently delete ${ aliasCount } alias.": [
         "Πρόκειται να διαγράψετε οριστικά ${ aliasCount } ψευδώνυμο.",
         "Πρόκειται να διαγράψετε οριστικά ${ aliasCount } ψευδώνυμα."
+      ],
+      "Access tokens require ${ PASS_APP_NAME } Plus": [
+        "Τα διακριτικά πρόσβασης απαιτούν ${ PASS_APP_NAME } Plus"
+      ],
+      "Activity for \"${ token.Name }\"": [
+        "Δραστηριότητα για το \"${ token.Name }\""
+      ],
+      "Agent setup instructions": [
+        "Οδηγίες ρύθμισης πράκτορα"
+      ],
+      "Browser permission required": [
+        "Απαιτείται άδεια προγράμματος περιήγησης"
+      ],
+      "Create new access token": [
+        "Δημιουργία νέου διακριτικού πρόσβασης"
+      ],
+      "Delete access token?": [
+        "Διαγραφή διακριτικού πρόσβασης;"
+      ],
+      "Manage vault access": [
+        "Διαχείριση πρόσβασης κρύπτης"
+      ],
+      "No access tokens yet": [
+        "Δεν υπάρχουν ακόμη διακριτικά πρόσβασης"
+      ],
+      "Your new access token": [
+        "Το νέο σας διακριτικό πρόσβασης σας"
       ]
     },
     "Title_cloned_item": {
@@ -5237,6 +5503,46 @@
       ],
       "Too many attempts": [
         "Πάρα πολλές προσπάθειες"
+      ],
+      "Failed to autotype. Please make sure ${ PASS_APP_NAME } has the necessary permissions and try again (${ error }).": [
+        "Αποτυχία αυτόματης πληκτρολόγησης. Παρακαλούμε βεβαιωθείτε ότι το ${ PASS_APP_NAME } διαθέτει τα απαραίτητα δικαιώματα και δοκιμάστε ξανά (${ error })."
+      ],
+      "Offline": [
+        "Εκτός σύνδεσης"
+      ]
+    },
+    "Activity": {
+      "Activity": [
+        "Δραστηριότητα"
+      ],
+      "Activity details could not be loaded.": [
+        "Δεν ήταν δυνατή η φόρτωση των λεπτομερειών της δραστηριότητας."
+      ],
+      "Folder": [
+        "Φάκελος"
+      ],
+      "Item": [
+        "Στοιχείο"
+      ],
+      "Reason": [
+        "Αιτία"
+      ],
+      "Vault": [
+        "Κρύπτη"
+      ]
+    },
+    "Status": {
+      "Active": [
+        "Ενεργό"
+      ],
+      "Agent": [
+        "Πράκτορας"
+      ],
+      "Expired": [
+        "Ληγμένα"
+      ],
+      "Expiring soon": [
+        "Λήγει σύντομα"
       ]
     }
   }

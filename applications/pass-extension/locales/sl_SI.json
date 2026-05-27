@@ -648,6 +648,9 @@
       ],
       "Settings": [
         "Nastavitve"
+      ],
+      "Load more": [
+        "Naloži več"
       ]
     },
     "Browser": {
@@ -1048,6 +1051,12 @@
       ],
       "The ${ PASS_APP_NAME } desktop app is not responding, is it running?": [
         "Namizna aplikacija ${ PASS_APP_NAME } se ne odziva, ali je zagnana?"
+      ],
+      "Name is required": [
+        "Zahtevano je ime"
+      ],
+      "Unknown error.": [
+        "Neznana napaka."
       ]
     },
     "Error message": {
@@ -1954,6 +1963,12 @@
       ],
       "You may close this tab.": [
         "Lahko zaprete ta zavihek."
+      ],
+      "Logging you out...": [
+        "Izpisovanje ..."
+      ],
+      "New": [
+        "Novo"
       ]
     },
     "Label": {
@@ -2838,6 +2853,9 @@
       ],
       "Record Number": [
         "Številka zapisa"
+      ],
+      "Token name": [
+        "Ime žetona"
       ]
     },
     "Link": {
@@ -3797,6 +3815,9 @@
       ],
       "Too many attempts": [
         "Preveč poskusov"
+      ],
+      "Offline": [
+        "Brez povezave"
       ]
     },
     "Vault Select": {

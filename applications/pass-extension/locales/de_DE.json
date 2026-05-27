@@ -773,6 +773,12 @@
       ],
       "Settings": [
         "Einstellungen"
+      ],
+      "Copy": [
+        "Kopieren"
+      ],
+      "Load more": [
+        "Weitere laden"
       ]
     },
     "Browser": {
@@ -1357,6 +1363,45 @@
       ],
       "The ${ PASS_APP_NAME } desktop app is not responding, is it running?": [
         "Die ${ PASS_APP_NAME }-Desktop-App reagiert nicht. Läuft sie?"
+      ],
+      "A desktop unlock check is already in progress.": [
+        "Die Desktop-Entsperrung wird bereits durchgeführt."
+      ],
+      "Biometric authentication failed.": [
+        "Biometrische Authentifizierung fehlgeschlagen."
+      ],
+      "Biometric lock credentials do not match.": [
+        "Biometrische Anmeldedaten stimmen nicht überein."
+      ],
+      "Biometric lock credentials not found.": [
+        "Biometrischen Anmeldedaten nicht gefunden."
+      ],
+      "Biometric lock is not configured.": [
+        "Biometrische Sperre nicht konfiguriert."
+      ],
+      "Biometric lock setup failed.": [
+        "Einrichten der biometrischen Sperre fehlgeschlagen."
+      ],
+      "Encrypted communication with ${ PASS_APP_NAME } desktop app failed.": [
+        "Verschlüsselte Kommunikation mit der ${ PASS_APP_NAME }-Desktop-App fehlgeschlagen."
+      ],
+      "Name is required": [
+        "Name ist erforderlich"
+      ],
+      "The ${ PASS_APP_NAME } desktop app did not respond in time.": [
+        "Die ${ PASS_APP_NAME }-Desktop-App hat nicht zeitgerecht reagiert."
+      ],
+      "The ${ PASS_APP_NAME } desktop app is signed in with a different account.": [
+        "Die ${ PASS_APP_NAME }-Desktop-App ist mit einem anderen Konto angemeldet."
+      ],
+      "The ${ PASS_APP_NAME } desktop app should be logged in.": [
+        "Die ${ PASS_APP_NAME }-Desktop-App sollte angemeldet sein."
+      ],
+      "This domain is already managed by your organization": [
+        "Diese Domain wird bereits von deiner Organisation verwaltet"
+      ],
+      "Unknown error.": [
+        "Unbekannter Fehler."
       ]
     },
     "Error message": {
@@ -2772,6 +2817,36 @@
       "Moving an item to another vault will erase its secure links.": [
         "Beim Verschieben eines Eintrags in einen anderen Tresor, werden seine sicheren Verknüpfungen gelöscht.",
         "Beim Verschieben von Einträgen in einen anderen Tresor, werden ihre sicheren Verknüpfungen gelöscht."
+      ],
+      "2FA code copied to clipboard": [
+        "2FA-Code in die Zwischenablage kopiert"
+      ],
+      "Access token \"${ action.token.Name }\" is already expired. If deleted, it will no longer be shown.": [
+        "Zugangstoken \"${ action.token.Name }\" ist bereits abgelaufen. Wenn gelöscht, wird es nicht länger angezeigt."
+      ],
+      "After autofilling a login, its 2FA code is copied to the clipboard.": [
+        "Nach dem automatischen Ausfüllen der Anmeldung befindet sich der 2FA-Code in der Zwischenablage"
+      ],
+      "Logging you out...": [
+        "Du wirst abgemeldet..."
+      ],
+      "New": [
+        "Neu"
+      ],
+      "Only tokens that expired in the last 30 days are shown. Older tokens are automatically deleted.": [
+        "Nur Token, die in den letzten 30 Tagen abgelaufen sind, werden angezeigt. Ältere Token wurden automatisch gelöscht."
+      ],
+      "To configure shortcuts, go to about:addons in Firefox and select \"Manage Extension Shortcuts\"": [
+        "Um Tastenkombinationen zu konfigurieren, gehe in Firefox zu \"Erweiterungen & Themes\" und wähle \"Tastenkombinationen von Erweiterungen verwalten\""
+      ],
+      "To set up biometrics unlock, ${ PASS_APP_NAME } requires a new browser permission. After you accept it, the extension will reload. Please re-open this page afterwards.": [
+        "Um die biometrische Entsperrung einzurichten, benötigt ${ PASS_APP_NAME } eine neue Browser-Berechtigung. Nachdem du diese akzeptiert hast, wird die Erweiterung neu geladen. Bitte öffne diese Seite anschließend erneut."
+      ],
+      "Unlock ${ PASS_APP_NAME } to access your passkeys": [
+        "${ PASS_APP_NAME } entsperren, um auf deine Passkeys zuzugreifen"
+      ],
+      "Unlock ${ PASS_APP_NAME } to save this passkey": [
+        "${ PASS_APP_NAME } entsperren, um diesen Passkey zu speichern"
       ]
     },
     "Keyboard key": {
@@ -3915,6 +3990,15 @@
       ],
       "Offline mode": [
         "Offline-Modus"
+      ],
+      "Auto-copy 2FA code": [
+        "2FA-Code automatisch kopieren"
+      ],
+      "Expired tokens (${ expired.length })": [
+        "Abgelaufene Token (${ expired.length })"
+      ],
+      "Token name": [
+        "Name des Tokens"
       ]
     },
     "Link": {
@@ -4223,6 +4307,9 @@
       ],
       "Used on ${ url }": [
         "Verwendet auf ${ url }"
+      ],
+      "e.g. My automation script": [
+        "z. B. Mein Automatisierungsskript"
       ]
     },
     "Security Center - Info": {
@@ -4894,6 +4981,9 @@
       "You’re about to permanently delete ${ aliasCount } alias.": [
         "Du bist dabei, ${ aliasCount } Alias dauerhaft zu löschen.",
         "Du bist dabei, ${ aliasCount } Aliasse dauerhaft zu löschen."
+      ],
+      "Browser permission required": [
+        "Browser-Berechtigung erforderlich"
       ]
     },
     "Title_cloned_item": {
@@ -5237,6 +5327,12 @@
       ],
       "Too many attempts": [
         "Zu viele Versuche"
+      ],
+      "Failed to autotype. Please make sure ${ PASS_APP_NAME } has the necessary permissions and try again (${ error }).": [
+        "Automatisches Ausfüllen fehlgeschlagen. Bitte stelle sicher, dass ${ PASS_APP_NAME } die nötigen Berechtigungen hat und versuche es erneut (${ error })."
+      ],
+      "Offline": [
+        "Offline"
       ]
     }
   }

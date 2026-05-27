@@ -690,6 +690,9 @@
       ],
       "Settings": [
         "Налаштування"
+      ],
+      "Load more": [
+        "Завантажити ще"
       ]
     },
     "Browser": {
@@ -1206,6 +1209,12 @@
       ],
       "Your PIN code was removed by another ${ PASS_APP_NAME } client": [
         "Ваш PIN-код був видалений іншим клієнтом ${ PASS_APP_NAME }"
+      ],
+      "Name is required": [
+        "Назва обовʼязкова"
+      ],
+      "Unknown error.": [
+        "Невідома помилка."
       ]
     },
     "Error message": {
@@ -2392,6 +2401,12 @@
       ],
       "Reconnecting": [
         "Повторне з'єднання"
+      ],
+      "Logging you out...": [
+        "Вихід із системи..."
+      ],
+      "New": [
+        "Нове"
       ]
     },
     "Label": {
@@ -4514,6 +4529,9 @@
       ],
       "Too many attempts": [
         "Забагато спроб"
+      ],
+      "Offline": [
+        "В автономному режимі"
       ]
     }
   }
