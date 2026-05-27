@@ -714,6 +714,9 @@
       ],
       "Your password manager is not here? Request it.": [
         "Вашего менеджера паролей здесь нет? Запросите его."
+      ],
+      "Load more": [
+        "Загрузить ещё"
       ]
     },
     "App menu": {
@@ -1256,6 +1259,12 @@
       ],
       "Your PIN code was removed by another ${ PASS_APP_NAME } client": [
         "Ваш PIN был удален другим клиентом ${ PASS_APP_NAME }"
+      ],
+      "Name is required": [
+        "Требуется имя"
+      ],
+      "Unknown error.": [
+        "Неизвестная ошибка."
       ]
     },
     "Error message": {
@@ -2512,6 +2521,9 @@
       ],
       "Your organization requires you to secure your access to ${ PASS_APP_NAME }": [
         "Ваша организация требует, чтобы вы обеспечили защищенный доступ к ${ PASS_APP_NAME }"
+      ],
+      "New": [
+        "Новый"
       ]
     },
     "Label": {

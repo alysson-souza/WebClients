@@ -776,6 +776,12 @@
       ],
       "Your password manager is not here? Request it.": [
         "Ist dein Passwort-Manager nicht dabei? Fordere ihn an."
+      ],
+      "Don't show this again": [
+        "Nicht mehr anzeigen"
+      ],
+      "Load more": [
+        "Weitere laden"
       ]
     },
     "App menu": {
@@ -1335,6 +1341,51 @@
       ],
       "Your PIN code was removed by another ${ PASS_APP_NAME } client": [
         "Dein PIN-Code wurde von einem anderen ${ PASS_APP_NAME }-Client entfernt"
+      ],
+      "A desktop unlock check is already in progress.": [
+        "Die Desktop-Entsperrung wird bereits durchgeführt."
+      ],
+      "Biometric authentication failed.": [
+        "Biometrische Authentifizierung fehlgeschlagen."
+      ],
+      "Biometric lock credentials do not match.": [
+        "Biometrische Anmeldedaten stimmen nicht überein."
+      ],
+      "Biometric lock credentials not found.": [
+        "Biometrischen Anmeldedaten nicht gefunden."
+      ],
+      "Biometric lock is not configured.": [
+        "Biometrische Sperre nicht konfiguriert."
+      ],
+      "Biometric lock setup failed.": [
+        "Einrichten der biometrischen Sperre fehlgeschlagen."
+      ],
+      "Encrypted communication with ${ PASS_APP_NAME } desktop app failed.": [
+        "Verschlüsselte Kommunikation mit der ${ PASS_APP_NAME }-Desktop-App fehlgeschlagen."
+      ],
+      "Name is required": [
+        "Name ist erforderlich"
+      ],
+      "The ${ PASS_APP_NAME } desktop app did not respond in time.": [
+        "Die ${ PASS_APP_NAME }-Desktop-App hat nicht zeitgerecht reagiert."
+      ],
+      "The ${ PASS_APP_NAME } desktop app is locked, it must be unlocked.": [
+        "Die ${ PASS_APP_NAME }-Desktop-App ist gesperrt, sie muss entsperrt werden."
+      ],
+      "The ${ PASS_APP_NAME } desktop app is not installed.": [
+        "Die ${ PASS_APP_NAME }-Desktop-App ist nicht installiert."
+      ],
+      "The ${ PASS_APP_NAME } desktop app is not responding, is it running?": [
+        "Die ${ PASS_APP_NAME }-Desktop-App reagiert nicht. Läuft sie?"
+      ],
+      "The ${ PASS_APP_NAME } desktop app is signed in with a different account.": [
+        "Die ${ PASS_APP_NAME }-Desktop-App ist mit einem anderen Konto angemeldet."
+      ],
+      "The ${ PASS_APP_NAME } desktop app should be logged in.": [
+        "Die ${ PASS_APP_NAME }-Desktop-App sollte angemeldet sein."
+      ],
+      "Unknown error.": [
+        "Unbekannter Fehler."
       ]
     },
     "Error message": {
@@ -2650,6 +2701,33 @@
       ],
       "Your organization requires you to secure your access to ${ PASS_APP_NAME }": [
         "Deine Organisation verlangt, dass du deinen Zugang zu ${ PASS_APP_NAME } absicherst."
+      ],
+      "Access token \"${ action.token.Name }\" is already expired. If deleted, it will no longer be shown.": [
+        "Zugangstoken \"${ action.token.Name }\" ist bereits abgelaufen. Wenn gelöscht, wird es nicht länger angezeigt."
+      ],
+      "Enabling desktop auto-lock": [
+        "Desktop-Autosperre aktivieren"
+      ],
+      "New": [
+        "Neu"
+      ],
+      "Only tokens that expired in the last 30 days are shown. Older tokens are automatically deleted.": [
+        "Nur Token, die in den letzten 30 Tagen abgelaufen sind, werden angezeigt. Ältere Token wurden automatisch gelöscht."
+      ],
+      "This feature requires the ${ PASS_APP_NAME } desktop app to be installed and running during setup.": [
+        "Diese Funktion erfordert, dass die Desktop-App ${ PASS_APP_NAME } während der Einrichtung installiert und ausgeführt wird."
+      ],
+      "To set up biometrics unlock, ${ PASS_APP_NAME } requires a new browser permission. After you accept it, the extension will reload. Please re-open this page afterwards.": [
+        "Um die biometrische Entsperrung einzurichten, benötigt ${ PASS_APP_NAME } eine neue Browser-Berechtigung. Nachdem du diese akzeptiert hast, wird die Erweiterung neu geladen. Bitte öffne diese Seite anschließend erneut."
+      ],
+      "You can now use your backup password to access ${ PASS_SHORT_APP_NAME } offline": [
+        "Du kannst jetzt dein Backup-Passwort verwenden, um offline auf ${ PASS_SHORT_APP_NAME } zuzugreifen"
+      ],
+      "You can now use your extra password to access ${ PASS_SHORT_APP_NAME } offline": [
+        "Du kannst jetzt dein zusätzliches Passwort verwenden, um offline auf ${ PASS_SHORT_APP_NAME } zuzugreifen"
+      ],
+      "You can now use your second password to access ${ PASS_SHORT_APP_NAME } offline": [
+        "Du kannst jetzt dein zweites Passwort verwenden, um offline auf ${ PASS_SHORT_APP_NAME } zuzugreifen"
       ]
     },
     "Keyboard key": {
@@ -3889,6 +3967,12 @@
       ],
       "ZIP or Postal code": [
         "Postleitzahl oder ZIP-Code"
+      ],
+      "Expired tokens (${ expired.length })": [
+        "Abgelaufene Token (${ expired.length })"
+      ],
+      "Token name": [
+        "Name des Tokens"
       ]
     },
     "Link": {
@@ -4213,6 +4297,9 @@
       ],
       "Used on ${ url }": [
         "Verwendet auf ${ url }"
+      ],
+      "e.g. My automation script": [
+        "z. B. Mein Automatisierungsskript"
       ]
     },
     "Security Center - Info": {
@@ -4857,6 +4944,9 @@
       "You’re about to permanently delete ${ aliasCount } alias.": [
         "Du bist dabei, ${ aliasCount } Alias dauerhaft zu löschen.",
         "Du bist dabei, ${ aliasCount } Aliasse dauerhaft zu löschen."
+      ],
+      "Browser permission required": [
+        "Browser-Berechtigung erforderlich"
       ]
     },
     "Title_cloned_item": {
@@ -5203,6 +5293,11 @@
       ],
       "Your subscription does not allow you to create multiple vaults. All items will be imported to your first vault. To import into multiple vaults upgrade your subscription.": [
         "Dein Abonnement erlaubt es dir nicht, mehrere Tresore zu erstellen. Alle Einträge werden in deinen ersten Tresor importiert. Um in mehrere Tresore zu importieren, musst du dein Abonnement upgraden."
+      ]
+    },
+    "Upsell": {
+      "Get ${ planName }": [
+        "${ planName } holen"
       ]
     }
   }

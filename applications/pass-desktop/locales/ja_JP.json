@@ -774,6 +774,9 @@
       ],
       "Your password manager is not here? Request it.": [
         "あなたのパスワードマネージャーがここにはありませんか？リクエストしてください。"
+      ],
+      "Load more": [
+        "さらに読み込む"
       ]
     },
     "App menu": {
@@ -1330,6 +1333,12 @@
       ],
       "Your PIN code was removed by another ${ PASS_APP_NAME } client": [
         "あなたのPIN コードは他のクライアント${ PASS_APP_NAME }にって削除されました"
+      ],
+      "Name is required": [
+        "名前は必須です"
+      ],
+      "Unknown error.": [
+        "不明なエラーが発生しました。"
       ]
     },
     "Error message": {
@@ -2564,6 +2573,18 @@
       ],
       "Your organization requires you to secure your access to ${ PASS_APP_NAME }": [
         "あなたの組織では、 ${ PASS_APP_NAME }へのアクセスの安全性を要求しています"
+      ],
+      "Access token \"${ action.token.Name }\" is already expired. If deleted, it will no longer be shown.": [
+        "アクセストークン「${ action.token.Name }」は既に期限切れです。削除すると、表示されなくなります。"
+      ],
+      "Moving an item to another vault will erase its secure links.": [
+        "アイテムを別の保管庫に移動すると、そのアイテムのセキュアリンクはすべて消去されます。"
+      ],
+      "New": [
+        "新規"
+      ],
+      "Only tokens that expired in the last 30 days are shown. Older tokens are automatically deleted.": [
+        "過去30日以内に有効期限が切れたトークンのみが表示されます。それより古いトークンは自動的に削除されます。"
       ]
     },
     "Keyboard key": {
@@ -3789,6 +3810,12 @@
       ],
       "ZIP or Postal code": [
         "郵便番号"
+      ],
+      "Expired tokens (${ expired.length })": [
+        "期限切れトークン(${ expired.length })"
+      ],
+      "Token name": [
+        "トークン名"
       ]
     },
     "Link": {

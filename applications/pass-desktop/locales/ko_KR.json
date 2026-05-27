@@ -744,6 +744,39 @@
       ],
       "Your password manager is not here? Request it.": [
         "사용중이신 비밀번호 관리자가 여기 없나요? 추가하도록 요청하세요."
+      ],
+      "Autotype": [
+        "자동 입력"
+      ],
+      "Autotype in previous window": [
+        "이전 창에서 자동 입력"
+      ],
+      "Copy card number": [
+        "카드 번호 복사"
+      ],
+      "Copy email": [
+        "이메일 복사"
+      ],
+      "Copy expiration date": [
+        "유효기간 복사"
+      ],
+      "Copy name on card": [
+        "카드상의 이름 복사"
+      ],
+      "Copy note content": [
+        "메모 콘텐츠 복사"
+      ],
+      "Copy security code": [
+        "보안 코드 복사"
+      ],
+      "Copy username": [
+        "시용자 이름 복사"
+      ],
+      "Cut": [
+        "자르기"
+      ],
+      "Load more": [
+        "더 불러오기"
       ]
     },
     "App menu": {
@@ -1300,6 +1333,21 @@
       ],
       "Your PIN code was removed by another ${ PASS_APP_NAME } client": [
         "타 ${ PASS_APP_NAME } 클라이언트로 인해 사용자의 PIN 코드가 삭제되었습니다."
+      ],
+      "Name is required": [
+        "이름은 필수입니다"
+      ],
+      "The ${ PASS_APP_NAME } desktop app is locked, it must be unlocked.": [
+        "${ PASS_APP_NAME } 데스크톱 앱이 잠겨 있어 잠금을 해제해야 합니다."
+      ],
+      "The ${ PASS_APP_NAME } desktop app is not installed.": [
+        "${ PASS_APP_NAME } 데스크톱 앱이 설치되지 않았습니다."
+      ],
+      "The ${ PASS_APP_NAME } desktop app is not responding, is it running?": [
+        "${ PASS_APP_NAME } 데스크톱 앱이 응답하지 않습니다. 실행 중인가요?"
+      ],
+      "Unknown error.": [
+        "알 수 없는 오류."
       ]
     },
     "Error message": {
@@ -2537,6 +2585,69 @@
       ],
       "Your organization requires you to secure your access to ${ PASS_APP_NAME }": [
         "조직에서 ${ PASS_APP_NAME }에 대한 액세스 권한을 보호해야 합니다"
+      ],
+      "${ inviterEmail } wants to share an item with a group you administer.": [
+        "${ inviterEmail }님이 사용자가 관리하는 그룹과 항목을 공유하려고 합니다."
+      ],
+      "${ inviterEmail } wants to share an item with the group ${ name }.": [
+        "${ inviterEmail }님이 그룹 ${ name }와(과) 항목을 공유하고 싶어합니다."
+      ],
+      "An item previously shared with you was removed.": [
+        "이전에 나와 공유한 항목이 삭제되었습니다."
+      ],
+      "Bring your existing passwords into ${ PASS_APP_NAME }.": [
+        "기존의 비밀번호를 ${ PASS_APP_NAME }로 가져오세요."
+      ],
+      "Enable offline mode to access your ${ PASS_SHORT_APP_NAME } data if you lose internet connectivity or if ${ BRAND_NAME } servers are unreachable.": [
+        "인터넷 연결이 끊기거나 ${ BRAND_NAME } 서버에 접속할 수 없을 때 ${ PASS_SHORT_APP_NAME } 데이터에 접근할 수 있도록 오프라인 모드를 활성화하세요."
+      ],
+      "Enabling desktop auto-lock": [
+        "데스크톱 자동 잠금 활성화"
+      ],
+      "Enter verification code. Digit ${ digit }.": [
+        "인증 코드를 입력하세요. ${ digit }자입니다."
+      ],
+      "Get the most out of ${ PASS_APP_NAME } by creating a vault for each team or project.": [
+        "각 팀이나 프로젝트를 위한 금고를 생성하여 ${ PASS_APP_NAME }을 최대한 활용하세요."
+      ],
+      "invites the group ${ name } to access items in": [
+        "님이 그룹 ${ name }에 초대하여 다음 금고의 항목에 접근하도록 합니다:"
+      ],
+      "New": [
+        "신규"
+      ],
+      "The group is invited to a vault.": [
+        "그룹이 금고에 초대되었습니다."
+      ],
+      "This feature requires the ${ PASS_APP_NAME } desktop app to be installed and running during setup.": [
+        "이 기능은 설정 중에 ${ PASS_APP_NAME } 데스크톱 앱이 설치되어 실행 중이어야 합니다."
+      ],
+      "Vault \"${ share.content.name }\" was removed.": [
+        "금고 \"${ share.content.name }\"이(가) 삭제되었습니다."
+      ],
+      "When enabled, you can still access your ${ PASS_SHORT_APP_NAME } data if you lose internet connectivity or if ${ BRAND_NAME } servers are unreachable.": [
+        "활성화하면 인터넷 연결이 끊기거나 ${ BRAND_NAME } 서버에 접속할 수 없을 때도 ${ PASS_SHORT_APP_NAME } 데이터에 접근할 수 있습니다."
+      ],
+      "You can now use your backup password to access ${ PASS_SHORT_APP_NAME } offline": [
+        "이제 추가 비밀번호를 사용하여 ${ PASS_SHORT_APP_NAME }를 오프라인으로 이용해 보세요"
+      ],
+      "You can now use your extra password to access ${ PASS_SHORT_APP_NAME } offline": [
+        "이제 추가 비밀번호를 사용하여 ${ PASS_SHORT_APP_NAME }를 오프라인으로 이용해 보세요"
+      ],
+      "You can now use your second password to access ${ PASS_SHORT_APP_NAME } offline": [
+        "이제 추가 비밀번호를 사용하여 ${ PASS_SHORT_APP_NAME }를 오프라인으로 이용해 보세요"
+      ],
+      "You may need to grant accessibility permission to ${ PASS_APP_NAME }.": [
+        "${ PASS_APP_NAME }로 접근성 권한을 부여해야 할 수 있습니다."
+      ],
+      "You no longer have access to some vaults or items because your group ${ groupName }'s access was removed.": [
+        "그룹 ${ groupName }의 접근 권한이 제거되었기 때문에 일부 금고 또는 항목에 더 이상 접근할 수 없습니다."
+      ],
+      "You now have access to \"Item ${ itemName }\" because your group ${ groupName } has been granted access.": [
+        "사용자의그룹 ${ groupName }에 접근 권한이 부여되었으므로 \"${ itemName }\" 항목에 접근할 수 있습니다."
+      ],
+      "You now have access to \"Vault ${ vaultName }\" because your group ${ groupName } has been granted access.": [
+        "사용자의 그룹 ${ groupName }에 접근 권한이 부여되었기 때문에 \"${ vaultName }\" 금고에 접근할 수 있습니다."
       ]
     },
     "Keyboard key": {
@@ -3762,6 +3873,9 @@
       ],
       "ZIP or Postal code": [
         "우편번호"
+      ],
+      "Token name": [
+        "토큰 이름"
       ]
     },
     "Link": {
@@ -4083,6 +4197,9 @@
       ],
       "Used on ${ url }": [
         "${ url }(애)서 사용됨"
+      ],
+      "e.g. My automation script": [
+        "예: 나의 자동화된 스크립트"
       ]
     },
     "Security Center - Info": {
@@ -4716,6 +4833,9 @@
       ],
       "You’re about to permanently delete ${ aliasCount } alias.": [
         "별칭 ${ aliasCount }개를 영구적으로 삭제하게 됩니다."
+      ],
+      "Vault shared with a group you administer": [
+        "사용자가 관리하는 그룹과 공유된 금고"
       ]
     },
     "Title_cloned_item": {

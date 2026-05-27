@@ -9,7 +9,7 @@
         "Выяўлены ${ name } і ${ remainingCount } іншыя(х) патэнцыяльныя(х) ўцечкі(ак). Уключыце функцыю ${ DARK_WEB_MONITORING_NAME }, каб паглядзець падрабязнасці і прыняць адпаведныя дзеянні. ${ link }"
       ],
       "${ name } and 1 other potential leak detected. Turn on ${ DARK_WEB_MONITORING_NAME } to view details and take action. ${ link }": [
-        "Выяўлены ${ name } і 1 іншая патэнцыяльная ўцечка. Уключыце функцыю ${ DARK_WEB_MONITORING_NAME }, каб паглядзець падрабязнасці і прыняць адпаведныя дзеянні. ${ link }"
+        "Выяўлена ${ name } і яшчэ 1 іншая патэнцыяльная ўцечка даных. Уключыце функцыю ${ DARK_WEB_MONITORING_NAME }, каб паглядзець падрабязнасці і прыняць адпаведныя дзеянні. ${ link }"
       ],
       "A potential ${ name } leak was detected. Turn on ${ DARK_WEB_MONITORING_NAME } to view details and take action. ${ link }": [
         "Выяўлена патэнцыяльная ўцечка ${ name }. Уключыце функцыю ${ DARK_WEB_MONITORING_NAME }, каб паглядзець падрабязнасці і прыняць адпаведныя дзеянні. ${ link }"
@@ -21,7 +21,7 @@
         "Выяўлена патэнцыяльная ўцечка ад ${ name }. Уключыце функцыю ${ DARK_WEB_MONITORING_NAME }, каб паглядзець падрабязнасці. ${ link }"
       ],
       "Your information was found in at least one data leak. Turn on ${ DARK_WEB_MONITORING_NAME } to view details and take action. ${ link }": [
-        "Вашы звесткі былі знойдзены прынамсі ў адной уцечкі даных. Уключыце функцыю ${ DARK_WEB_MONITORING_NAME }, каб паглядзець падрабязнасці і прыняць адпаведныя дзеянні. ${ link }"
+        "Вашы звесткі былі знойдзены прынамсі ў адной уцечцы даных. Уключыце функцыю ${ DARK_WEB_MONITORING_NAME }, каб паглядзець падрабязнасці і прыняць адпаведныя дзеянні. ${ link }"
       ]
     },
     "Action": {
@@ -95,7 +95,7 @@
         "Дазволіць доступ"
       ],
       "Apply lifetime coupon code": [
-        "Ужыць пажыццёвы код купона"
+        "Прымяніць пажыццёвы код купона"
       ],
       "Authenticate": [
         "Аўтэнтыфікацыя"
@@ -602,7 +602,7 @@
         "Абмежаваць колькасць праглядаў"
       ],
       "Resume monitoring": [
-        "Узнавіць назіранне"
+        "Узнавіць маніторынг"
       ],
       "Retry": [
         "Паўтарыць"
@@ -780,6 +780,30 @@
       ],
       "Your password manager is not here? Request it.": [
         "Адсутнічае ваш менеджар пароляў? Запытайце яго."
+      ],
+      "Copy instructions": [
+        "Скапіяваць інструкцыі"
+      ],
+      "Copy token": [
+        "Скапіяваць токен"
+      ],
+      "Create token": [
+        "Стварыць токен"
+      ],
+      "Don't show this again": [
+        "Больш не паказваць"
+      ],
+      "Load more": [
+        "Загрузіць больш"
+      ],
+      "Manage vault access": [
+        "Кіраванне доступам да сховішча"
+      ],
+      "New token": [
+        "Новы токен"
+      ],
+      "View agent activity": [
+        "Паглядзець актыўнасць агента"
       ]
     },
     "App menu": {
@@ -1050,7 +1074,7 @@
         "Памылка адпраўкі справаздачы аб праблеме"
       ],
       "Failed loading group members": [
-        "Збой загрузкі членаў групы"
+        "Збой загрузкі ўдзельнікаў групы"
       ],
       "Failed removing the invite.": [
         "Збой выдалення запрашэння."
@@ -1125,7 +1149,7 @@
         "Не ўдалося выдаліць доступ карыстальніка."
       ],
       "Failed to resend verification code": [
-        "Не ўдалося паўторна адправіць праверачны код"
+        "Не ўдалося паўторна адправіць код спраўджання"
       ],
       "Failed to resend verification for custom email": [
         "Не ўдалося паўторна адправіць код праверкі для карыстальніцкай электроннай пошты"
@@ -1251,7 +1275,7 @@
         "Збой абнаўлення налад"
       ],
       "Signature verification failed": [
-        "Не ўдалося праверыць подпіс"
+        "Не ўдалося спраўдзіць подпіс"
       ],
       "Some vaults are no longer accessible due to a password reset. Reactivate your account keys in order to regain access. ${ reactivateLink }": [
         "Некаторыя сховішчы больш недаступны з прычыны таго, што было выканана скіданне пароля. Паўторна актывуйце ключы ўліковага запісу, каб аднавіць доступ. ${ reactivateLink }"
@@ -1345,6 +1369,75 @@
       ],
       "Your PIN code was removed by another ${ PASS_APP_NAME } client": [
         "Ваш PIN-код быў выдалены ў іншым кліенце ${ PASS_APP_NAME }"
+      ],
+      "A desktop unlock check is already in progress.": [
+        "Адбываецца праверка, ці разблакіраваны працоўны стол."
+      ],
+      "Biometric authentication failed.": [
+        "Збой аўтэнтыфікацыі біяметрыі."
+      ],
+      "Biometric lock credentials do not match.": [
+        "Уліковыя даныя біяметрычнай блакіроўкі не супадаюць."
+      ],
+      "Biometric lock credentials not found.": [
+        "Уліковыя даныя біяметрычнай блакіроўкі не знойдзены."
+      ],
+      "Biometric lock is not configured.": [
+        "Біяметрычная блакіроўка не сканфігурыравана."
+      ],
+      "Biometric lock setup failed.": [
+        "Збой наладкі біяметрычнай блакіроўкі"
+      ],
+      "Couldn't load agent setup instructions. Please copy the token below, it won't be shown again.": [
+        "Немагчыма загрузіць інструкцыі па наладцы агента. Скапіюйце токен ніжэй, бо ён больш не будзе паказаны."
+      ],
+      "Encrypted communication with ${ PASS_APP_NAME } desktop app failed.": [
+        "Збой зашыфраваных зносін з праграмай для камп'ютара ${ PASS_APP_NAME }."
+      ],
+      "Expiration must be between 60 minutes and 1 year": [
+        "Тэрмін дзеянне павінен быць у інтэрвале паміж 60 хвілінамі і 1 годам"
+      ],
+      "Failed to create access token": [
+        "Не ўдалося стварыць токен доступу"
+      ],
+      "Failed to delete access token": [
+        "Не ўдалося выдаліць токен доступу"
+      ],
+      "Failed to load access tokens": [
+        "Не ўдалося загрузіць токены доступу"
+      ],
+      "Failed to load token actions": [
+        "Не ўдалося загрузіць дзеянні токена"
+      ],
+      "Failed to update vault access": [
+        "Не ўдалося абнавіць доступ да сховішча"
+      ],
+      "Name is required": [
+        "Патрабуецца назва"
+      ],
+      "Name must be 191 characters or fewer": [
+        "Назва павінна быць не больш за 191 сімвал"
+      ],
+      "The ${ PASS_APP_NAME } desktop app did not respond in time.": [
+        "Праграма для камп'ютара ${ PASS_APP_NAME } своечасова не адказвае."
+      ],
+      "The ${ PASS_APP_NAME } desktop app is locked, it must be unlocked.": [
+        "Праграма для камп'ютара для ${ PASS_APP_NAME } заблакіравана. Яе неабходна разблакіраваць."
+      ],
+      "The ${ PASS_APP_NAME } desktop app is not installed.": [
+        "Праграма для камп'ютара ${ PASS_APP_NAME } не ўсталявана."
+      ],
+      "The ${ PASS_APP_NAME } desktop app is not responding, is it running?": [
+        "Праграма для камп'ютара ${ PASS_APP_NAME } не адказвае. Пераканайцеся, што яна запушчана."
+      ],
+      "The ${ PASS_APP_NAME } desktop app is signed in with a different account.": [
+        "У праграме для камп'ютара ${ PASS_APP_NAME } уліковы запіс зменены на іншы."
+      ],
+      "The ${ PASS_APP_NAME } desktop app should be logged in.": [
+        "Праграма для камп'ютара ${ PASS_APP_NAME } павінна быць аўтарызавана ў сістэме."
+      ],
+      "Unknown error.": [
+        "Невядомая памылка."
       ]
     },
     "Error message": {
@@ -1843,7 +1936,7 @@
         "Увядзіце адрас, на які вы хочаце адправіць ліст."
       ],
       "Enter verification code. Digit ${ digit }.": [
-        "Увядзіце праверачны код. Лічба ${ digit }."
+        "Увядзіце код спраўджання. Лічба ${ digit }."
       ],
       "Enter your extra password": [
         "Увядзіце свой дадатковы пароль"
@@ -2089,7 +2182,7 @@
         "У цяперашні момант новыя версіі недаступны."
       ],
       "None": [
-        "Няма"
+        "Адсутнічае"
       ],
       "Not recommended": [
         "Не рэкамендавана"
@@ -2149,7 +2242,7 @@
         "Замацаванне элемента..."
       ],
       "Please check your spam folder or try resending the code.": [
-        "Спраўдзіце папку са спамам або паспрабуйце адправіць код паўторна."
+        "Праверце папку са спамам або паспрабуйце адправіць код паўторна."
       ],
       "Please confirm your ${ BRAND_NAME } password in order to enable offline mode": [
         "Пацвердзіце свой пароль ${ BRAND_NAME } для таго, каб уключыць рэжым па-за сеткай"
@@ -2281,7 +2374,7 @@
         "Націсніце Enter, каб скапіяваць"
       ],
       "Protected by ${ PROTON_SENTINEL_LINK }, our advanced account protection program": [
-        "Абаронена з дапамогай ${ PROTON_SENTINEL_LINK } — нашай перадавой праграмы абароны ўліковых запісаў"
+        "Абаронена з дапамогай ${ PROTON_SENTINEL_LINK }, якая з'яўляецца нашай перадавой праграмай абароны ўліковых запісаў"
       ],
       "Reconnect": [
         "Перападключыцца"
@@ -2512,7 +2605,7 @@
         "Немагчыма скапіяваць у буфер абмену"
       ],
       "Unconfigured": [
-        "Несканфігуравана"
+        "Несканфігурыравана"
       ],
       "Unlimited hide-my-email aliases and advanced alias management": [
         "Неабмежаваная колькасць псеўданімаў hide-my-email і пашыранае кіраванне псеўданімам"
@@ -2539,7 +2632,7 @@
         "Адмацаванне элемента..."
       ],
       "Unverified": [
-        "Неправераны"
+        "Неправерана"
       ],
       "Updating vault organization...": [
         "Абнаўленне арганізацыі сховішча..."
@@ -2599,7 +2692,7 @@
         "Тыдзень"
       ],
       "We’ve sent a verification code to ${ email }. Please enter it below:": [
-        "Мы адправілі вам код спраўджання на ${ email }. Увядзіце яго ніжэй:"
+        "Ваш код спраўджання адпраўлены на ${ email }. Увядзіце яго ніжэй:"
       ],
       "When creating/editing a Login on ${ PASS_APP_NAME } the 'username' input will always be visible.": [
         "Пры стварэнні або рэдагаванні запісу ўваходу ў ${ PASS_APP_NAME } поле ўводу 'імя карыстальніка' заўсёды будзе бачным."
@@ -2714,6 +2807,129 @@
       ],
       "Your organization requires you to secure your access to ${ PASS_APP_NAME }": [
         "Ваша арганізацыя патрабуе, каб вы забяспечылі доступ да ${ PASS_APP_NAME }"
+      ],
+      "${ selectedShareIds.size } selected": [
+        "${ selectedShareIds.size } выбрана"
+      ],
+      "Access token \"${ action.token.Name }\" is already expired. If deleted, it will no longer be shown.": [
+        "Токен доступу \"${ action.token.Name }\" ужо пратэрмінаваны. Ён больш не будзе паказаны, калі выдалены."
+      ],
+      "Access token \"${ action.token.Name }\" will stop working immediately. This action cannot be undone.": [
+        "Токен доступу \"${ action.token.Name }\" неадкадладна спыніць сваю працу. Гэта дзеянне нельга будзе адрабіць."
+      ],
+      "Access tokens, used together with ${ passCliLink }, allow you to automate CI/CD or give your AI agent scoped access to what it needs to run its job.": [
+        "Токены доступу, якія выкарыстоўваюцца разам з ${ passCliLink }, дазваляюць аўтаматызаваць CI/CD або даць вашаму агенту ШІ абмежаваны доступ да рэсурсаў, якія яму неабходны для выканання яго задач."
+      ],
+      "Between 60 (1 hour) and 525600 (1 year)": [
+        "Паміж 60 (1 гадзіна) і 525600 (1 год)"
+      ],
+      "Copy the markdown below and send it to your AI agent. This is the only time the token will be shown.": [
+        "Скапіюйце ніжэй у фармаце Markdown і адпраўце яго свайму агенту ШІ. Токен будзе паказаны толькі адзін раз."
+      ],
+      "Copy this token now. For security reasons, it won't be shown again.": [
+        "Скапіюйце гэты токен цяпер. У мэтах бяспекі, ён больш не будзе паказаны."
+      ],
+      "Create a token to integrate ${ PASS_APP_NAME } with your scripts and tools.": [
+        "Стварыце токен, каб інтэграваць ${ PASS_APP_NAME } у свае сцэнарыі і інструменты."
+      ],
+      "Created ${ createdDate }": [
+        "Створана ${ createdDate }"
+      ],
+      "Created item": [
+        "Створаны элемент"
+      ],
+      "Deleted item": [
+        "Выдалены элемент"
+      ],
+      "Download pass-cli from ${ passCliLink }.": [
+        "Спампаваць pass-cli з ${ passCliLink }."
+      ],
+      "Enabling desktop auto-lock": [
+        "Уключэнне аўтаблакіроўкі праграмы для камп'ютара"
+      ],
+      "Every action this agent token has performed, newest first.": [
+        "Усе дзеянні, якія выкананы гэтым токенам агента. Спачатку самыя новыя."
+      ],
+      "Expired ${ abs } hour ago": [
+        "Мінуў ${ abs } гадзіну таму",
+        "Мінуў ${ abs } гадзіны таму",
+        "Мінуў ${ abs } гадзін таму",
+        "Мінуў ${ abs } гадзін таму"
+      ],
+      "Expires in ${ hours } hour": [
+        "Міне праз ${ hours } хвіліну",
+        "Міне праз ${ hours } хвіліны",
+        "Міне праз ${ hours } хвілін",
+        "Міне праз ${ hours } хвілін"
+      ],
+      "Expires in less than an hour": [
+        "Тэрмін дзеяння міне менш чым праз гадзіну"
+      ],
+      "Log out of any existing session:": [
+        "Выйсці з усіх актыўных сеансаў:"
+      ],
+      "Moved item to trash": [
+        "Перамясціць элемент у сметніцу"
+      ],
+      "New": [
+        "Новы"
+      ],
+      "No activity recorded yet.": [
+        "Пакуль ніякай актыўнасці не выяўлена."
+      ],
+      "No vaults available.": [
+        "Няма даступных сховішчаў."
+      ],
+      "None selected": [
+        "Нічога не выбрана"
+      ],
+      "Only tokens that expired in the last 30 days are shown. Older tokens are automatically deleted.": [
+        "Паказаны толькі токены, якія пратэрмінаваны за апошнія 30 дзён. Больш старыя токены аўтаматычна выдалены."
+      ],
+      "Read item": [
+        "Прачытаць элемент"
+      ],
+      "Restored item from trash": [
+        "Элемент адноўлены са сметніцы"
+      ],
+      "Select the vaults \"${ token.Name }\" can read.": [
+        "Выберыце сховішчы, якія можа прачытаць \"${ token.Name }\"."
+      ],
+      "Test the token by logging in and listing vaults:": [
+        "Пратэсціруйце токены і паглядзіце спіс сховішчаў:"
+      ],
+      "The agent will be required to provide a reason for every action it performs, and each action will be recorded in an audit log you can review. After token creation, you'll get instructions to copy-paste into your AI agent.": [
+        "Агент павінен будзе тлумачыць прычыну кожнага выкананага дзеяння, і кожнае яго дзеянне будзе запісана ў журнале аўдыту, які вы зможаце паглядзець. Пасля стварэння токена вы атрымаеце інструкцыі па капіяванні і ўстаўцы яго ў свой агент ШІ."
+      ],
+      "Then you can go to ${ url } to copy the instructions to send to your AI agent.": [
+        "Цяпер вы можаце перайсці па наступнай спасылцы ${ url }, каб скапіяваць інструкцыі для адпраўкі ў свой агент ШІ."
+      ],
+      "This feature requires the ${ PASS_APP_NAME } desktop app to be installed and running during setup.": [
+        "Гэтая функцыя патрабуе, каб праграма для камп'ютара ${ PASS_APP_NAME } была ўсталявана і запушчана падчас наладкі."
+      ],
+      "This token gets read-only access to the vaults you select. It can read items, but cannot edit them, share vaults, or invite others. You can change this later.": [
+        "Гэты токен дае доступ толькі на чытанне для сховішчаў, якія вы выбралі. Ён можа чытаць элементы, але не можа рэдагаваць іх, абагульваць сховішчы або запрашаць іншых. Гэта можна змяніць пазней."
+      ],
+      "To set up biometrics unlock, ${ PASS_APP_NAME } requires a new browser permission. After you accept it, the extension will reload. Please re-open this page afterwards.": [
+        "${ PASS_APP_NAME } патрабуе новыя дазволы ад браўзера, каб наладзіць біяметрычную разблакіроўку. Пашырэнне будзе перазагружана, калі праграма атрымае адпаведныя дазволы."
+      ],
+      "Updated item": [
+        "Абноўленыя элементы"
+      ],
+      "Upgrade to ${ PASS_APP_NAME } Plus to create access tokens and use ${ PASS_APP_NAME } programmatically.": [
+        "Палепшыць да ${ PASS_APP_NAME } Plus, каб стварыць токены доступу і выкарыстоўваць ${ PASS_APP_NAME } праграмна."
+      ],
+      "Vault access granted": [
+        "Доступ да сховішча прадстаўлены"
+      ],
+      "You can now use your backup password to access ${ PASS_SHORT_APP_NAME } offline": [
+        "Цяпер вы можаце выкарыстоўваць свой рэзервовы пароль для доступу да ${ PASS_SHORT_APP_NAME } па-за сеткай"
+      ],
+      "You can now use your extra password to access ${ PASS_SHORT_APP_NAME } offline": [
+        "Цяпер вы можаце выкарыстоўваць свой дадатковы пароль для доступу да ${ PASS_SHORT_APP_NAME } па-за сеткай"
+      ],
+      "You can now use your second password to access ${ PASS_SHORT_APP_NAME } offline": [
+        "Цяпер вы можаце выкарыстоўваць свой другі пароль для доступу да ${ PASS_SHORT_APP_NAME } па-за сеткай"
       ]
     },
     "Keyboard key": {
@@ -3981,6 +4197,24 @@
       ],
       "ZIP or Postal code": [
         "Паштовы індэкс"
+      ],
+      "Access tokens": [
+        "Токены доступу"
+      ],
+      "Expired tokens (${ expired.length })": [
+        "Пратэрмінаваныя токены (${ expired.length })"
+      ],
+      "Expires in (minutes)": [
+        "Міне праз (хвілін)"
+      ],
+      "Token name": [
+        "Назва токена"
+      ],
+      "Use for AI agent": [
+        "Выкарыстоўваць для агента ШІ"
+      ],
+      "Vault access": [
+        "Доступ да сховішча"
       ]
     },
     "Link": {
@@ -4049,6 +4283,9 @@
       ],
       "${ reason } has been enabled": [
         "${ reason } было ўключана"
+      ],
+      "Access token deleted": [
+        "Токен доступу выдалены"
       ]
     },
     "Option": {
@@ -4262,7 +4499,7 @@
         "ММ/ГГ"
       ],
       "my-domain.com": [
-        "moi-damen.com"
+        "moi-damen.eu"
       ],
       "Name displayed in emails": [
         "Імя, якое адлюстроўваецца ў лістах"
@@ -4311,6 +4548,12 @@
       ],
       "Used on ${ url }": [
         "Выкарыстоўваецца на ${ url }"
+      ],
+      "e.g. 60": [
+        "напрыклад, 60"
+      ],
+      "e.g. My automation script": [
+        "напрыклад, мой сцэнарый аўтаматызацыі"
       ]
     },
     "Security Center - Info": {
@@ -4832,7 +5075,7 @@
         "Аднавіць гэту версію?"
       ],
       "Resume monitoring?": [
-        "Узнавіць назіранне?"
+        "Узнавіць маніторынг?"
       ],
       "Reused ${ count } time": [
         "Паўторна выкарыстаны ${ count } раз",
@@ -4913,7 +5156,7 @@
         "Разблакіроўка ${ brandNameJSX }"
       ],
       "Unverified": [
-        "Неправераны"
+        "Неправерана"
       ],
       "Update available": [
         "Даступна абнаўленне"
@@ -4971,6 +5214,33 @@
         "Вы збіраецеся незваротна выдаліць ${ aliasCount } псеўданімы.",
         "Вы збіраецеся незваротна выдаліць ${ aliasCount } псеўданімаў.",
         "Вы збіраецеся незваротна выдаліць ${ aliasCount } псеўданімаў."
+      ],
+      "Access tokens require ${ PASS_APP_NAME } Plus": [
+        "Токены доступу патрабуюць ${ PASS_APP_NAME } Plus"
+      ],
+      "Activity for \"${ token.Name }\"": [
+        "Актыўнасць для \"${ token.Name }\""
+      ],
+      "Agent setup instructions": [
+        "Інструкцыі па наладцы агента"
+      ],
+      "Browser permission required": [
+        "Патрабуюцца дазволы ад браўзера"
+      ],
+      "Create new access token": [
+        "Стварыць новы токен доступу"
+      ],
+      "Delete access token?": [
+        "Выдаліць токен доступу?"
+      ],
+      "Manage vault access": [
+        "Кіраванне доступам да сховішча"
+      ],
+      "No access tokens yet": [
+        "Пакуль няма токена доступу"
+      ],
+      "Your new access token": [
+        "Ваш новы токен доступу"
       ]
     },
     "Title_cloned_item": {
@@ -5325,6 +5595,45 @@
       ],
       "Your subscription does not allow you to create multiple vaults. All items will be imported to your first vault. To import into multiple vaults upgrade your subscription.": [
         "Ваша падпіска не дазваляе ствараць некалькі сховішчаў. Усе элементы будуць імпартаваны ў ваша першае сховішча. Палепшыце сваю падпіску, каб мець магчымасць імпартаваць у некалькі сховішчаў."
+      ]
+    },
+    "Activity": {
+      "Activity": [
+        "Актыўнасць"
+      ],
+      "Activity details could not be loaded.": [
+        "Не ўдалося загрузіць падрабязнасці актыўнасці."
+      ],
+      "Folder": [
+        "Папка"
+      ],
+      "Item": [
+        "Элемент"
+      ],
+      "Reason": [
+        "Прычына"
+      ],
+      "Vault": [
+        "Сховішча"
+      ]
+    },
+    "Status": {
+      "Active": [
+        "Актыўны"
+      ],
+      "Agent": [
+        "Агент"
+      ],
+      "Expired": [
+        "Пратэрмінаваны"
+      ],
+      "Expiring soon": [
+        "Неўзабаве міне"
+      ]
+    },
+    "Upsell": {
+      "Get ${ planName }": [
+        "Атрымаць ${ planName }"
       ]
     }
   }

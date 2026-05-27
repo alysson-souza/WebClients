@@ -716,6 +716,9 @@
       ],
       "Your password manager is not here? Request it.": [
         "O seu gestor de palavras-passe não está aqui? Solicite-o."
+      ],
+      "Load more": [
+        "Carregar mais"
       ]
     },
     "App menu": {
@@ -1258,6 +1261,12 @@
       ],
       "Your PIN code was removed by another ${ PASS_APP_NAME } client": [
         "O Seu código PIN foi removido por outro cliente ${ PASS_APP_NAME }."
+      ],
+      "Name is required": [
+        "É necessário um nome."
+      ],
+      "Unknown error.": [
+        "Erro desconhecido."
       ]
     },
     "Error message": {
@@ -2460,6 +2469,9 @@
       ],
       "Your organization requires you to secure your access to ${ PASS_APP_NAME }": [
         "A sua organização exige que proteja o seu acesso ao ${ PASS_APP_NAME }."
+      ],
+      "New": [
+        "Novo"
       ]
     },
     "Label": {

@@ -776,6 +776,9 @@
       ],
       "Your password manager is not here? Request it.": [
         "თქვენი პაროლების მმართველი აქ არაა? მოითხოვეთ ის."
+      ],
+      "Load more": [
+        "მეტის ჩატვირთვა"
       ]
     },
     "App menu": {
@@ -1320,6 +1323,12 @@
       ],
       "Your PIN code was removed by another ${ PASS_APP_NAME } client": [
         "თქვენი PIN-კოდი წაშლილია სხვა ${ PASS_APP_NAME }-ის კლიენტის მიერ"
+      ],
+      "Name is required": [
+        "სახელი აუცილებელია"
+      ],
+      "Unknown error.": [
+        "უცნობი შეცდომა."
       ]
     },
     "Error message": {
@@ -2572,6 +2581,12 @@
       ],
       "Your organization requires you to secure your access to ${ PASS_APP_NAME }": [
         "თქვენი ორგანიზაცია ითხოვთ, დაიცვათ თქვენი წვდომა ${ PASS_APP_NAME }-ზე"
+      ],
+      "Enabling desktop auto-lock": [
+        "სამუშაო მაგიდის ავტოდაბლოკვის ჩართვა"
+      ],
+      "New": [
+        "ახალი"
       ]
     },
     "Keyboard key": {
@@ -3793,6 +3808,9 @@
       ],
       "ZIP or Postal code": [
         "Zip ან საფოსტო კოდი"
+      ],
+      "Token name": [
+        "კოდის სახელი"
       ]
     },
     "Link": {
