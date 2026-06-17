@@ -12748,6 +12748,9 @@
       ],
       "Upload a public key to enable sending end-to-end encrypted emails to this email": [
         "Upload en offentlig nøgle for at aktivere afsendelse af end-to-end krypterede e-mails til denne e-mail"
+      ],
+      "Instant AI assistance, human expert on hand!": [
+        "Øjeblikkelig AI-assistance, menneskelig ekspert der sidder klar!"
       ]
     },
     "tooltip": {
