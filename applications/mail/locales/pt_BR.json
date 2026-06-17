@@ -9163,6 +9163,9 @@
       ],
       "**You get ${ referrerRewardAmount }** in credits for every friend that subscribes.": [
         "**Ganhe ${ referrerRewardAmount }** créditos para cada amigo que se inscrever."
+      ],
+      "All your files will be imported": [
+        "Todos os seus arquivos serão importados"
       ]
     },
     "info": {
@@ -9437,6 +9440,9 @@
       ],
       "Message shortcuts": [
         "Atalhos de mensagem"
+      ],
+      "Desktop app navigation": [
+        "Navegação do aplicativo para computador"
       ]
     },
     "Label": {
@@ -10240,6 +10246,21 @@
       ],
       "Email categories": [
         "Categorias de e-mail"
+      ],
+      "Calendars": [
+        "Calendários"
+      ],
+      "Download logs": [
+        "Registros de downloads"
+      ],
+      "Drive": [
+        "Drive"
+      ],
+      "Emails": [
+        "E-mails"
+      ],
+      "URL": [
+        "URL"
       ]
     },
     "Label (begin date/advanced search)": {
@@ -12809,6 +12830,9 @@
       ],
       "This key is used for message verification": [
         "Essa chave já foi usado para verificação por mensagem"
+      ],
+      "This key is used to encrypt messages to this contact on older apps": [
+        "Esta chave é usada para criptografar mensagens para este contato em aplicativos antigos"
       ]
     },
     "PGP key warning": {
@@ -16249,6 +16273,9 @@
       ],
       "Verify your password": [
         "Verificar sua senha"
+      ],
+      "${ BRAND_NAME } Scribe writing assistant": [
+        "Assistente de escrita ${ BRAND_NAME } Scribe"
       ]
     },
     "Today icon tooltip in mini calendar": {

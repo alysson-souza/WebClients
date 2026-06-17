@@ -1720,7 +1720,7 @@
         "Využít nabídku"
       ],
       "Continue with Free": [
-        "Pokračovat zdarma"
+        "Pokračovat s tarifem Free"
       ]
     },
     "action": {
@@ -9401,7 +9401,7 @@
         "Nalezeno ${ total } uživatelů"
       ],
       "Included": [
-        "Zahrnuto"
+        "Včetně"
       ],
       "Upgrade anytime to bring over the rest": [
         "Kdykoli upgradujte, abyste přenesli i zbytek"
@@ -10486,6 +10486,18 @@
       ],
       "ZIP code": [
         "PSČ"
+      ],
+      "Calendars": [
+        "Kalendáře"
+      ],
+      "Download logs": [
+        "Stáhnout logy"
+      ],
+      "Emails": [
+        "E-maily"
+      ],
+      "URL": [
+        "URL"
       ]
     },
     "Label (begin date/advanced search)": {
@@ -16733,6 +16745,9 @@
       ],
       "Summer Sale": [
         "Letní výprodej"
+      ],
+      "${ BRAND_NAME } Scribe writing assistant": [
+        "Asistent psaní ${ BRAND_NAME } Scribe"
       ]
     },
     "Today icon tooltip in mini calendar": {

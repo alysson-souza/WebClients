@@ -9424,6 +9424,18 @@
       ],
       "Select which Gmail address to connect": [
         "Выберите адрес Gmail для подключения"
+      ],
+      "Calendars": [
+        "Календари"
+      ],
+      "Download logs": [
+        "Скачать журналы"
+      ],
+      "Emails": [
+        "Электронные письма"
+      ],
+      "URL": [
+        "URL"
       ]
     },
     "Label (begin date/advanced search)": {
@@ -14828,6 +14840,9 @@
       ],
       "You are all set": [
         "Всё готово"
+      ],
+      "${ BRAND_NAME } Scribe writing assistant": [
+        "Помощник по написанию ${ BRAND_NAME } Scribe"
       ]
     },
     "Today icon tooltip in mini calendar": {

@@ -9666,6 +9666,18 @@
       ],
       "Select which Gmail address to connect": [
         "Válassza ki a csatlakoztatni kívánt Gmail-címet"
+      ],
+      "Calendars": [
+        "Naptárak"
+      ],
+      "Download logs": [
+        "Naplók letöltése"
+      ],
+      "Emails": [
+        "E-mailek"
+      ],
+      "URL": [
+        "URL"
       ]
     },
     "Label (begin date/advanced search)": {
@@ -15133,6 +15145,9 @@
       ],
       "You are all set": [
         "Minden készen áll"
+      ],
+      "${ BRAND_NAME } Scribe writing assistant": [
+        "${ BRAND_NAME } Scribe írási segéd"
       ]
     },
     "Today icon tooltip in mini calendar": {

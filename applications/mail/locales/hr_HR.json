@@ -6546,6 +6546,15 @@
       ],
       "ZIP code": [
         "Poštanski broj"
+      ],
+      "Calendars": [
+        "Kalendari"
+      ],
+      "Emails": [
+        "E-pošta"
+      ],
+      "URL": [
+        "URL"
       ]
     },
     "Label (begin date/advanced search)": {
@@ -9858,6 +9867,9 @@
       ],
       "Summer Sale": [
         "Ljetna rasprodaja"
+      ],
+      "${ BRAND_NAME } Scribe writing assistant": [
+        "${ BRAND_NAME } Scribe pomoćnik za pisanje"
       ]
     },
     "Today icon tooltip in mini calendar": {

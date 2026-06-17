@@ -5352,7 +5352,7 @@
         "Ha utilizado todos los usuarios en el plan. Mejore el plan para agregar un usuario nuevo."
       ],
       "Something went wrong while converting the address": [
-        "Se ha producido un error al convertir la dirección"
+        "Ocurrió un error al convertir la dirección"
       ]
     },
     "error": {
@@ -10282,6 +10282,18 @@
       ],
       "Email categories": [
         "Categorías de correo electrónico"
+      ],
+      "Calendars": [
+        "Calendarios"
+      ],
+      "Download logs": [
+        "Descargar registros"
+      ],
+      "Emails": [
+        "Correos"
+      ],
+      "URL": [
+        "URL"
       ]
     },
     "Label (begin date/advanced search)": {
@@ -16297,6 +16309,9 @@
       ],
       "Verify your password": [
         "Verificar contraseña"
+      ],
+      "${ BRAND_NAME } Scribe writing assistant": [
+        "Asistente de escritura ${ BRAND_NAME } Scribe"
       ]
     },
     "Today icon tooltip in mini calendar": {
